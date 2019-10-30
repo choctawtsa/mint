@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/origin.css -o css/style.css"
+    "build:prod": "postcss css/origin.css -o css/style.css --env production",
+    "build:dev": "postcss css/origin.css -o css/style.css --env development",
+    "serve": "live-server"
   },
   "repository": {
     "type": "git",
