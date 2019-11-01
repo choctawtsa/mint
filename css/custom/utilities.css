@@ -1,0 +1,10 @@
+.list-definition {
+    counter-reset: definition-counter;
+}
+.list-definition li {
+    counter-increment: definition-counter;
+}
+.list-definition li::before {
+    content: counter(definition-counter) " ";
+    @apply text-teal-500 font-bold ml-4 mr-2;
+}
