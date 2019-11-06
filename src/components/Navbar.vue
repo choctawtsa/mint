@@ -15,9 +15,9 @@
         </div>
       </div>
       <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
-        <router-link to="/" class="block px-2 py-1 text-gray-900 font-semibold rounded hover:bg-gray-200">Home</router-link>
-        <router-link to="/dictionary" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Dictionary</router-link>
-        <a href="https://www.choctawtsa.org" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Choctaw TSA</a>
+        <router-link to="/" class="block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-gray-200">Home</router-link>
+        <router-link to="/dictionary" class="mt-1 block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Dictionary</router-link>
+        <a href="https://www.choctawtsa.org" class="mt-1 block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Choctaw TSA</a>
       </nav>
     </div>
       
