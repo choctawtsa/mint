@@ -3,7 +3,7 @@
     <div class="flex lg:h-screen">
         <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:self-center">
             <div class="xl:max-w-xl xl:mx-auto">
-                <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/img/_m_v_-ZxQE-mbf9_s-unsplash.jpg" alt="Interstate">
+                <img class="-mt-4 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/img/_m_v_-ZxQE-mbf9_s-unsplash.jpg" alt="Interstate">
                 <h1 class="mt-6 text-4xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-3xl xl:text-4xl">
                     Electric vehicles are the future.
                     <br class="hidden sm:block"><span class="text-teal-500">It's time to embrace it.</span>
