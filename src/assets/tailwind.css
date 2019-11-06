@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .list-definition {
     counter-reset: definition-counter;
 }
