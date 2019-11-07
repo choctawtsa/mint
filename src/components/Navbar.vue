@@ -1,5 +1,5 @@
 <template>
-  <header id="menu" class="relative bg-white shadow-md">
+  <header id="menu" class="fixed w-screen bg-white shadow-md top-0 left-0">
     <div class="container mx-auto sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
