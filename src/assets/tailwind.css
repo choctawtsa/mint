@@ -1,5 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+.wavy-border {
+    @apply left-0 w-screen bottom-auto;
+    top: -6px;
+    transform: rotate(180deg);
+}
+
 @tailwind utilities;
 
 .list-definition {

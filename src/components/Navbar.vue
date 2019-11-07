@@ -1,9 +1,11 @@
 <template>
-  <header class="bg-white shadow-md">
+  <header id="menu" class="relative bg-white shadow-md">
     <div class="container mx-auto sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
-          <a href="/"><img class="h-8" src="/img/light-background.svg" alt="Mint"></a>
+          <router-link to="/">
+            <img class="h-8" src="/img/logos/light-background.svg" alt="Mint">
+          </router-link>
         </div>
         <div class="sm:hidden">
           <button @click="isOpen = !isOpen" type="button" class="block text-gray-700 hover:text-gray-500 focus:text-gray-500 focus:outline-none">
