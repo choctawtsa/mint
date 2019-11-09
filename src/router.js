@@ -22,7 +22,8 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Dictionary.vue')
     },
     {
-      path: '/*',
+      path: '*',
+      name: '404',
       component: 404
     }
   ]
