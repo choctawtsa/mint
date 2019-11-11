@@ -1,5 +1,5 @@
 <template>
-  <header id="menu" class="fixed w-screen bg-white shadow-md top-0 left-0">
+  <header id="menu" class="fixed w-screen bg-white shadow-md top-0 left-0 z-50">
     <div class="container mx-auto sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
@@ -17,9 +17,9 @@
         </div>
       </div>
       <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
-        <router-link to="/" class="block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-gray-200">Home</router-link>
-        <router-link to="/dictionary" class="mt-1 block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Dictionary</router-link>
-        <a href="https://www.choctawtsa.org" class="mt-1 block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Choctaw TSA</a>
+        <router-link to="/" class="block px-2 py-1 text-gray-700 rounded hover:bg-gray-200">Home</router-link>
+        <router-link to="/dictionary" class="mt-1 block px-2 py-1 text-gray-700 rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Dictionary</router-link>
+        <a href="https://www.choctawtsa.org" class="mt-1 block px-2 py-1 text-gray-700 rounded hover:bg-gray-200 sm:mt-0 sm:ml-2">Choctaw TSA</a>
       </nav>
     </div>
   </header>

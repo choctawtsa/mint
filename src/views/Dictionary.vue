@@ -1,5 +1,5 @@
 <template>
-    <div id="dictionary">
+    <main id="dictionary">
         <div class="bg-teal-200">
             <div class="container mx-auto px-8 py-8 md:flex md:justify-between md:items-center md:py-16">
                 <h1 class="font-black text-teal-900 text-4xl md:text-5xl xl:text-6xl">Dictionary</h1>
@@ -16,5 +16,5 @@
                 <li>tending to innovate , or introduce something new or different; characterized by innovation.</li>
             </ol>
         </div>
-    </div>
+    </main>
 </template>

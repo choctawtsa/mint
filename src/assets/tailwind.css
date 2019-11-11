@@ -19,3 +19,7 @@
     content: counter(definition-counter) " ";
     @apply text-teal-500 font-bold ml-4 mr-2;
 }
+
+.router-link-exact-active {
+    @apply font-semibold text-teal-700;
+}
