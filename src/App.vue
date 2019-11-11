@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <Navbar/>
-    <router-view/>
+    <vue-page-transition name="fade-in-up">
+      <router-view/>
+    </vue-page-transition>
+    
   </div>
 </template>
 
