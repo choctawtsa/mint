@@ -9,7 +9,7 @@
             alt="Interstate"
           />
           <h1
-            class="mt-6 text-4xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-3xl xl:text-4xl"
+            class="mt-6 text-4xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-3xl lg:mt-0 xl:text-4xl"
           >
             Electric vehicles are the future.
             <br class="hidden sm:block" />
