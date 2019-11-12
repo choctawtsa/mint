@@ -1,7 +1,7 @@
 <template>
   <nav
     id="navigation"
-    class="h-screen fixed hidden sm:block flex-shrink-0 w-64 px-8 py-4 bg-gray-900 z-50 inset-y-0 left-0 overflow-y-auto"
+    class="h-screen fixed hidden sm:block flex-shrink-0 w-64 px-8 py-8 bg-gray-900 z-50 inset-y-0 left-0 overflow-y-auto"
   >
     <router-link to="/">
       <img class="h-8" src="/img/logos/dark-background.svg" alt="Mint" />
