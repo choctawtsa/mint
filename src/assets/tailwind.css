@@ -20,6 +20,15 @@
     @apply text-teal-500 font-bold ml-4 mr-2;
 }
 
-.router-link-active {
-    @apply bg-gray-800 text-gray-300;
+.router-link-exact-active {
+    @apply bg-gray-900 text-gray-300;
+}
+
+#navigation::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+#navigation {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
 }
