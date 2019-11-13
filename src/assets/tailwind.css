@@ -20,6 +20,6 @@
     @apply text-teal-500 font-bold ml-4 mr-2;
 }
 
-.router-link-exact-active {
+.router-link-active {
     @apply bg-gray-800 text-gray-300;
 }

@@ -1,7 +1,8 @@
 <template>
   <div id="app" class="h-screen flex">
-    <SideNav />
-    <Navbar />
+    <DesktopNav />
+    <MobileNav />
+    <BreakpointIndicator />
     <div class="flex-1 min-w-0">
       <vue-page-transition name="fade-in-up">
         <router-view />
@@ -11,13 +12,15 @@
 </template>
 
 <script>
-import SideNav from "@/components/ui/SideNav.vue";
-import Navbar from "@/components/ui/Navbar.vue";
+import DesktopNav from "@/components/ui/DesktopNav.vue";
+import MobileNav from "@/components/ui/MobileNav.vue";
+import BreakpointIndicator from "@/components/dev/BreakpointIndicator.vue";
 
 export default {
   components: {
-    SideNav,
-    Navbar
+    DesktopNav,
+    MobileNav,
+    BreakpointIndicator
   }
 };
 </script>

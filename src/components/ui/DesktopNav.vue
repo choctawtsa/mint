@@ -57,6 +57,12 @@
       <h2 class="text-xs uppercase text-gray-500 font-semibold tracking-wide">Company</h2>
       <div class="mt-2 -mx-3">
         <router-link
+          to="/support"
+          class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+        >
+          <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Get Help</span>
+        </router-link>
+        <router-link
           to="/dictionary"
           class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
         >
@@ -82,5 +88,8 @@
         </a>
       </div>
     </div>
+    <!--<div class="absolute bottom-0 left-0 w-full my-6">
+      <p class="text-xs text-gray-700 font-medium text-center">Mint Electric &copy; 2019</p>
+    </div>-->
   </nav>
 </template>

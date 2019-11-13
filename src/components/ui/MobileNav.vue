@@ -80,6 +80,12 @@
           <h2 class="text-xs uppercase text-gray-500 font-semibold tracking-wide">Company</h2>
           <div class="mt-2 -mx-3">
             <router-link
+              to="/support"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+            >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Support</span>
+            </router-link>
+            <router-link
               to="/dictionary"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
             >

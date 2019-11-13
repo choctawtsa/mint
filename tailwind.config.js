@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       screens: {
         'dark': {'raw': '(prefers-color-scheme: dark)'},
+        'md': '824px'
       },
       fontFamily: {
         'poppins': ['Poppins'],
