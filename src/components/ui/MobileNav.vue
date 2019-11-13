@@ -1,5 +1,5 @@
 <template>
-  <header id="menu" class="fixed w-screen bg-gray-900 shadow-md top-0 left-0 z-50 sm:hidden">
+  <header id="menu" class="fixed w-screen bg-gray-800 shadow-md top-0 left-0 z-50 sm:hidden">
     <div class="container mx-auto sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
@@ -34,7 +34,7 @@
           <div class="mt-2 -mx-3">
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Hydrogen</span>
               <span
@@ -49,13 +49,13 @@
             </a>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Lithium</span>
             </a>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Beryllium</span>
               <span
@@ -64,13 +64,13 @@
             </a>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Boron</span>
             </a>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Carbon</span>
             </a>
@@ -81,31 +81,31 @@
           <div class="mt-2 -mx-3">
             <router-link
               to="/support"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Support</span>
             </router-link>
             <router-link
               to="/dictionary"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Dictionary</span>
             </router-link>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Carbon Impact</span>
             </a>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Press</span>
             </a>
             <a
               href="#"
-              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-800"
+              class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Legal</span>
             </a>

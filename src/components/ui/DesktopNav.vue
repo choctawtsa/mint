@@ -90,8 +90,8 @@
         </div>
       </div>
     </div>
-    <div class="-mt-2 px-8 py-4 bg-gray-900 text-center text-gray-700">
-      <p class="text-sm">Mint Electric &copy; 2019</p>
+    <!--<div class="-mt-2 px-8 py-4 bg-gray-900 text-center text-gray-700">
+      <p class="text-sm">Mint Electric &copy; 2019</p>-->
     </div>
   </nav>
 </template>
