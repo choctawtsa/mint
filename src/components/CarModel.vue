@@ -7,7 +7,7 @@
       <div class="mt-4 xl:mt-2">
         <a
           href="#"
-          class="text-teal-500 hover:text-teal-500 font-semibold text-sm leading-none"
+          class="text-teal-500 hover:text-teal-600 font-semibold text-sm leading-none"
         >Order</a>
       </div>
     </div>

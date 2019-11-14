@@ -2,8 +2,9 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        'md': '824px',
+        '2xl': '1536px',
         'dark': {'raw': '(prefers-color-scheme: dark)'},
-        'md': '824px'
       },
       fontFamily: {
         'poppins': ['Poppins'],
