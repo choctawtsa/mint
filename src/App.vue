@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      dev: true
+      dev: false
     }
   }
 };
