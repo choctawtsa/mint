@@ -2,33 +2,33 @@
 @tailwind components;
 
 .wavy-border {
-    @apply left-0 w-full bottom-auto;
-    top: -6px;
-    transform: rotate(180deg);
+  @apply left-0 w-full bottom-auto;
+  top: -6px;
+  transform: rotate(180deg);
 }
 
 @tailwind utilities;
 
 .list-definition {
-    counter-reset: definition-counter;
+  counter-reset: definition-counter;
 }
 .list-definition li {
-    counter-increment: definition-counter;
+  counter-increment: definition-counter;
 }
 .list-definition li::before {
-    content: counter(definition-counter) " ";
-    @apply text-teal-500 font-bold ml-4 mr-2;
+  content: counter(definition-counter) " ";
+  @apply text-teal-500 font-bold ml-4 mr-2;
 }
 
-.router-link-exact-active {
-    @apply bg-gray-900 text-gray-300;
+.router-link-active- {
+  @apply bg-gray-900 text-gray-300;
 }
 
 #navigation::-webkit-scrollbar {
-    width: 0 !important;
+  width: 0 !important;
 }
 
 #navigation {
-    overflow: -moz-scrollbars-none;
-    -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
 }

@@ -1,11 +1,26 @@
 <template>
-    <main id="support">
-        <header class="flex items-center justify-center py-3 md:justify-between bg-white border-b shadow-md sm:px-8 sm:py-4 md:px-12 md:py-8 lg:px-20 lg:py-8 xl:justify-around">
-            <img class="h-10 sm:h-20 md:h-32 lg:h-40" src="/img/icons/Support.svg" alt="Phone icon">
-            <div class="md:text-right ml-6 sm:ml-8">
-                <h1 class="leading-tight font-black text-gray-900 text-2xl sm:text-3xl md:text-5xl">Get Support</h1>
-                <p class="md:mt-2 md:text-xl text-gray-600">We're here to help.</p>
-            </div>
-        </header>
-    </main>
+  <main id="support">
+    <div class="bg-gray-100 flex">
+      <div class="px-8 py-12 max-w-md mx-auto sm:border-b-4 sm:border-teal-300 sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+        <div class="xl:max-w-lg xl:mx-auto">
+          <h1
+            class="text-4xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-3xl lg:mt-0 xl:text-4xl"
+          >
+            Get Support
+            <span class="text-teal-500">.</span>
+          </h1>
+          <p
+            class="mt-4 text-gray-600 sm:text-xl sm:mt-6"
+          >Our support staff are expertly-trained to provide you with the best solution to any problem you may have.</p>
+        </div>
+      </div>
+      <div class="hidden lg:block lg:w-1/2 lg:relative">
+        <img
+          class="absolute inset-0 h-full w-full object-cover object-right"
+          src="/img/austin-distel-mpN7xjKQ_Ns-unsplash.jpg"
+          alt="Interstate"
+        />
+      </div>
+    </div>
+  </main>
 </template>

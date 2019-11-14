@@ -61,7 +61,7 @@
             to="/support"
             class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
           >
-            <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Get Help</span>
+            <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Support</span>
           </router-link>
           <router-link
             to="/dictionary"
