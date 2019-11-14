@@ -31,5 +31,5 @@ export default new Router({
       component: () => import("./views/404.vue")
     }
   ],
-  linkActiveClass: "bg-gray-900 text-gray-300"
+  linkActiveClass: "bg-gray-900 text-gray-300 shadow-inner"
 });
