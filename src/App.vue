@@ -2,7 +2,7 @@
   <div id="app" class="h-screen flex">
     <DesktopNav />
     <MobileNav />
-    <!--<BreakpointIndicator />-->
+    <BreakpointIndicator v-if="dev" />
     <div class="flex-1 min-w-0">
       <vue-page-transition name="fade-in-up">
         <router-view />
@@ -21,6 +21,11 @@ export default {
     DesktopNav,
     MobileNav,
     BreakpointIndicator
+  },
+  data() {
+    return {
+      dev: false
+    }
   }
 };
 </script>
