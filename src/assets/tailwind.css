@@ -9,6 +9,24 @@
 
 @tailwind utilities;
 
+@responsive {
+  .-translate-y-full {
+    transform: translateY(-100%);
+  }
+  .translate-y-0 {
+    transform: translateY(0);
+  }
+  .transition-medium {
+    transition-duration: 0.2s;
+  }
+  .transition-none {
+    transition-property: none;
+  }
+  .ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+
 .list-definition {
   counter-reset: definition-counter;
 }

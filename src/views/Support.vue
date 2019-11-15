@@ -24,23 +24,36 @@
     </div>
     <div class="py-10 px-5 mx-auto max-w-sm sm:max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-5xl">
       <h1 class="text-2xl font-bold text-gray-900">Support Options</h1>
-      <Call :call="call" />
+      <div class="flex justify-start flex-wrap -mx-4">
+        <div
+          class="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3"
+          v-for="(option, i) in supportOptions"
+          :key="i"
+        >
+          <SupportOptions :option="option" />
+        </div>
+      </div>
     </div>
   </main>
 </template>
 
 <script>
-import Call from "@/components/support-options/Call.vue";
+import SupportOptions from "@/components/SupportOptions.vue";
 
 export default {
   components: {
-    Call
+    SupportOptions
   },
   data() {
     return {
-      call: [
+      supportOptions: [
         {
-          waitTime: "5 min"
+          title: "Phone Support",
+          waitTime: "2 minutes",
+          action: "Call",
+          actionUrl: "#",
+          imageUrl: "/img/icons/Support.svg",
+          imageAlt: "Phone icon"
         }
       ]
     };

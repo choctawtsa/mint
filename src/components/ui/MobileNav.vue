@@ -1,5 +1,6 @@
 <template>
   <header id="menu" class="fixed w-screen bg-gray-800 shadow-md top-0 left-0 z-50 sm:hidden">
+    <!-- This component is going to be deleted sometime soon; I'm going to just make the desktop nav responsive and have it translate in and out. That way, I don't have to maintain two different nav components whenever it's possible to use just one. -->
     <div class="container mx-auto sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
