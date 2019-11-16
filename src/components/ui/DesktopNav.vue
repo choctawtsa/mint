@@ -11,7 +11,7 @@
           <div>
             <router-link to="/">
               <img
-                class="h-8 ml-4"
+                class="h-8"
                 src="/img/logos/dark-background.svg"
                 alt="Mint logo"
               />
@@ -206,6 +206,11 @@ export default {
     return {
       sidebarOpen: false
     };
+  },
+  watch: {
+    $route() {
+      this.sidebarOpen = false;
+    }
   }
 };
 </script>
