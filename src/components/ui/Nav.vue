@@ -204,7 +204,7 @@
 export default {
   data() {
     return {
-      sidebarOpen: true
+      sidebarOpen: false
     };
   },
   watch: {
