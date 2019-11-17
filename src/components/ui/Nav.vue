@@ -192,9 +192,9 @@
     </div>-->
     </nav>
     <div
-      v-if="sidebarOpen"
       @click="sidebarOpen = !sidebarOpen"
-      class="block md:hidden transition-medium fixed top-0 bottom-0 left-0 right-0 w-full h-full z-40"
+      :class="sidebarOpen ? 'opacity-100' : 'opacity-0'"
+      class="block md:hidden transition-medium fixed top-0 bottom-0 left-0 right-0 w-full h-full z-40 transition-fade"
       style="background: rgba(0,0,0,0.7);content:''"
     ></div>
   </div>
@@ -204,7 +204,7 @@
 export default {
   data() {
     return {
-      sidebarOpen: false
+      sidebarOpen: true
     };
   },
   watch: {

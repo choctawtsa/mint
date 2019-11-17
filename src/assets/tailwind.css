@@ -35,6 +35,12 @@
   }
 }
 
+@variants {
+  .transition-fade {
+    transition: opacity 0.2s;
+  }
+}
+
 .list-definition {
   counter-reset: definition-counter;
 }
