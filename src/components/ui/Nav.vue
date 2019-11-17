@@ -21,7 +21,7 @@
             <button
               @click="sidebarOpen = true"
               type="button"
-              class="block text-gray-700 hover:text-gray-500 focus:text-gray-500 focus:outline-none"
+              class="block -m-2 p-2 text-gray-500 hover:text-gray-400 focus:text-gray-400 focus:outline-none"
             >
               <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
                 <path
@@ -47,7 +47,7 @@
       <div class="md:hidden absolute top-0 right-0 mr-8 mt-10">
         <button
           @click="sidebarOpen = false"
-          class="text-gray-700 hover:text-gray-500 focus:text-gray-500 focus:outline:none"
+          class="-m-2 p-2 text-gray-500 hover:text-gray-400 focus:text-gray-400 focus:outline:none"
         >
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
             <path
@@ -157,15 +157,15 @@
                 >Dictionary</span
               >
             </router-link>
-            <a
-              href="#"
+            <router-link
+              to="/carbon-impact"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
                 >Carbon Impact</span
               >
-            </a>
+            </router-link>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"

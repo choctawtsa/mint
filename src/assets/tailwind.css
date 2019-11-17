@@ -7,6 +7,14 @@
   transform: rotate(180deg);
 }
 
+.btn {
+  @apply inline-block px-6 py-2 rounded-full shadow-lg uppercase tracking-wider font-semibold text-sm;
+}
+
+.btn-teal {
+  @apply bg-teal-500 text-white;
+}
+
 @tailwind utilities;
 
 @responsive {

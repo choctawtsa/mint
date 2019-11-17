@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="h-screen flex">
-    <DesktopNav />
+    <Nav />
     <BreakpointIndicator v-if="dev" />
     <div class="flex-1 min-w-0">
       <vue-page-transition name="fade-in-up">
@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import DesktopNav from "@/components/ui/DesktopNav.vue";
+import Nav from "@/components/ui/Nav.vue";
 import BreakpointIndicator from "@/components/dev/BreakpointIndicator.vue";
 
 export default {
   components: {
-    DesktopNav,
+    Nav,
     BreakpointIndicator
   },
   data() {
