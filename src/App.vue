@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="h-screen flex">
-    <SideNav />
-    <Navbar />
+    <Nav />
+    <BreakpointIndicator v-if="dev" />
     <div class="flex-1 min-w-0">
       <vue-page-transition name="fade-in-up">
         <router-view />
@@ -11,13 +11,18 @@
 </template>
 
 <script>
-import SideNav from "@/components/ui/SideNav.vue";
-import Navbar from "@/components/ui/Navbar.vue";
+import Nav from "@/components/ui/Nav.vue";
+import BreakpointIndicator from "@/components/dev/BreakpointIndicator.vue";
 
 export default {
   components: {
-    SideNav,
-    Navbar
+    Nav,
+    BreakpointIndicator
+  },
+  data() {
+    return {
+      dev: false
+    };
   }
 };
 </script>
