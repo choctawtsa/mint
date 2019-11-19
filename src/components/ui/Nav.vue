@@ -1,33 +1,32 @@
 <template>
   <div>
-    <header
-      id="menu"
-      class="fixed w-screen bg-gray-800 shadow-md top-0 left-0 z-30 md:hidden"
-    >
-      <div
-        class="container mx-auto md:flex md:justify-between md:items-center md:px-4 md:py-3"
-      >
+    <!--  -->
+    <header id="menu" class="fixed w-screen bg-gray-800 shadow-md top-0 left-0 z-30 md:hidden">
+      <div class="container mx-auto md:flex md:justify-between md:items-center md:px-4 md:py-3">
         <div class="flex items-center justify-between px-4 py-3 md:p-0">
           <div>
             <router-link to="/">
-              <img
-                class="h-8"
-                src="/img/logos/dark-background.svg"
-                alt="Mint logo"
-              />
+              <img class="h-8" src="/img/logos/dark-background.svg" alt="Mint logo" />
             </router-link>
           </div>
           <div class="md:hidden">
             <button
               @click="sidebarOpen = true"
               type="button"
-              class="block -m-2 p-2 text-gray-500 hover:text-gray-400 focus:text-gray-400 focus:outline-none"
+              class="block -m-2 p-2 text-gray-700 hover:text-gray-600 focus:text-gray-600 focus:outline-none"
             >
-              <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <svg
+                class="h-6 w-6 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 18 12"
+              >
                 <path
                   v-if="!sidebarOpen"
-                  fill-rule="evenodd"
-                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                  d="M.948 0h16.103c.522 0 .95.427.95.949v.102a.952.952 0 01-.95.949H.948A.95.95 0 010 1.051V.949A.95.95 0 01.948 0zM17.051 5H.948A.95.95 0 000 5.949v.102A.95.95 0 00.948 7h16.103a.952.952 0 00.95-.949v-.102A.952.952 0 0017.05 5zM11 10H1c-.5 0-1 .427-1 .949v.102C0 11.573.5 12 1 12h10c.5 0 1-.427 1-.949v-.102c0-.522-.5-.949-1-.949z"
+                />
+                <path
+                  v-if="!sidebarOpen"
+                  d="M.948 0h16.103c.522 0 .95.427.95.949v.102a.952.952 0 01-.95.949H.948A.95.95 0 010 1.051V.949A.95.95 0 01.948 0zM17.051 5H.948A.95.95 0 000 5.949v.102A.95.95 0 00.948 7h16.103a.952.952 0 00.95-.949v-.102A.952.952 0 0017.05 5zM11 10H1c-.5 0-1 .427-1 .949v.102C0 11.573.5 12 1 12h10c.5 0 1-.427 1-.949v-.102c0-.522-.5-.949-1-.949z"
                 />
               </svg>
             </button>
@@ -62,136 +61,94 @@
           <img class="h-8" src="/img/logos/dark-background.svg" alt="Mint" />
         </router-link>
         <div class="mt-12">
-          <h2
-            class="text-xs uppercase text-gray-500 font-semibold tracking-wide"
-          >
-            Models
-          </h2>
+          <h2 class="text-xs uppercase text-gray-500 font-semibold tracking-wide">Models</h2>
           <div class="mt-2 -mx-3">
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Hydrogen</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Hydrogen</span>
               <span
                 class="text-xs font-semibold bg-teal-900 text-teal-600 px-2 py-px rounded-full uppercase tracking-wide"
-                >New</span
-              >
+              >New</span>
             </a>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Helium</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Helium</span>
             </a>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Lithium</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Lithium</span>
             </a>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Beryllium</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Beryllium</span>
               <span
                 class="text-xs font-semibold bg-teal-900 text-teal-600 px-2 py-px rounded-full uppercase tracking-wide"
-                >New</span
-              >
+              >New</span>
             </a>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Boron</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Boron</span>
             </a>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Carbon</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Carbon</span>
             </a>
           </div>
         </div>
         <div class="mt-8">
-          <h2
-            class="text-xs uppercase text-gray-500 font-semibold tracking-wide"
-          >
-            Company
-          </h2>
+          <h2 class="text-xs uppercase text-gray-500 font-semibold tracking-wide">Company</h2>
           <div class="mt-2 -mx-3">
             <router-link
               to="/support"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Support</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Support</span>
             </router-link>
             <router-link
               to="/dictionary"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Dictionary</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Dictionary</span>
             </router-link>
             <router-link
               to="/carbon-impact"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Carbon Impact</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Carbon Impact</span>
             </router-link>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Press</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Press</span>
             </a>
             <a
               href="#"
               class="flex justify-between px-3 py-2 rounded-lg items-center hover:bg-gray-900"
             >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Legal</span
-              >
+              <span class="text-sm font-medium text-gray-400 hover:text-gray-300">Legal</span>
             </a>
           </div>
         </div>
       </div>
       <!--<div class="-mt-2 px-8 py-4 bg-gray-900 text-center text-gray-700">
       <p class="text-sm">Mint Electric &copy; 2019</p>
-    </div>-->
+      </div>-->
     </nav>
     <div
+      v-if="sidebarOpen"
       @click="sidebarOpen = !sidebarOpen"
       :class="sidebarOpen ? 'opacity-100' : 'opacity-0'"
       class="block md:hidden transition-medium fixed top-0 bottom-0 left-0 right-0 w-full h-full z-40 transition-fade"

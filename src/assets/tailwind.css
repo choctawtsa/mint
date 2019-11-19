@@ -8,7 +8,7 @@
 }
 
 .btn {
-  @apply inline-block px-6 py-2 rounded-full shadow-lg uppercase tracking-wider font-semibold text-sm;
+  @apply inline-block px-6 py-2 rounded-full uppercase tracking-wider font-semibold text-sm;
 }
 
 .btn-teal {

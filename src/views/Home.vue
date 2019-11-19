@@ -1,9 +1,7 @@
 <template>
   <main id="home">
     <div class="bg-gray-100 flex">
-      <div
-        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
-      >
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class="xl:max-w-lg xl:mx-auto">
           <img
             class="-mt-4 rounded-lg shadow-xl sm:-mt-4 sm:h-72 sm:w-full sm:object-cover sm:object-center lg:hidden"
@@ -21,10 +19,10 @@
             of all vehicles in America will be electric. Here at Mint, we're
             rising to meet those needs with beautiful, sustainable products.
           </p>
-          <div class="mt-4 sm:mt-6">
-            <router-link to="/dictionary" class="btn btn-teal"
-              >More about us</router-link
-            >
+          <div>
+            <!-- There's still a lot to clean up with this two-button setup, esp on mobile screens -->
+            <a href="#" class="mt-4 mr-4 sm:mt-6 btn btn-teal shadow-lg transition-medium hover:shadow-2xl hover:bg-teal-600">Our products</a>
+            <router-link to="/dictionary" class="mt-4 sm:mt-6 btn border border-gray-500 text-gray-700 hover:bg-gray-400 hover:border-gray-400 hover:text-gray-900 transition-medium">More about us</router-link>
           </div>
         </div>
       </div>
@@ -38,18 +36,10 @@
     </div>
     <div>
       <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
-        <h2 class="text-3xl text-gray-900 font-bold">
-          A car for every lifestyle.
-        </h2>
-        <p class="text-gray-600">
-          No matter what you do, there's a Mint model to fit your needs.
-        </p>
+        <h2 class="text-3xl text-gray-900 font-bold">A car for every lifestyle.</h2>
+        <p class="text-gray-600">No matter what you do, there's a Mint model to fit your needs.</p>
         <div class="flex justify-center flex-wrap -mx-4">
-          <div
-            class="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3"
-            v-for="(model, i) in carModels"
-            :key="i"
-          >
+          <div class="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3" v-for="(model, i) in carModels" :key="i">
             <CarModel :model="model" />
           </div>
         </div>
