@@ -1,18 +1,21 @@
 <template>
-  <div class="flex items-center rounded-lg bg-white shadow-lg overflow-hidden">
+  <div class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg">
     <img
-      class="h-32 w-32 flex-shrink-0 object-cover object-center"
+      class="flex-shrink-0 object-cover object-center w-32 h-32"
       :src="model.thumbnailUrl"
       :alt="model.thumbnailAlt"
     />
     <div class="px-6 py-4">
       <h3 class="text-lg font-semibold text-gray-800">{{ model.name }}</h3>
-      <p class="text-gray-600 text-sm xl:leading-tight">Starting at ${{ model.monthlyPrice }}/mo</p>
+      <p class="text-sm text-gray-600 xl:leading-tight">
+        Starting at ${{ model.monthlyPrice }}/mo
+      </p>
       <div class="mt-4 xl:mt-2">
         <a
           href="#"
-          class="text-teal-500 hover:text-teal-600 font-semibold text-sm leading-none"
-        >Order</a>
+          class="text-sm font-semibold leading-none text-teal-500 hover:text-teal-600"
+          >Order</a
+        >
       </div>
     </div>
   </div>

@@ -8,37 +8,23 @@
           <h1
             class="text-4xl font-bold leading-tight text-gray-900 sm:mt-8 sm:text-3xl lg:mt-0 xl:text-4xl"
           >
-            Get Support
+            Environmental Impact
             <span class="text-teal-500">.</span>
           </h1>
           <p class="mt-4 text-gray-600 sm:text-xl sm:mt-6">
-            Our support staff are expertly-trained to provide you with the best
-            solution to any problem you may have.
+            We're not just fighting for a carbon-negative society; we're
+            fighting to reduce waste in the battery industry, too.
           </p>
         </div>
       </div>
       <div class="hidden -mb-1 lg:block lg:w-1/2 lg:relative">
         <img
           class="absolute inset-0 object-cover object-right w-full h-full"
-          src="/img/austin-distel-mpN7xjKQ_Ns-unsplash.jpg"
+          src="/img/rawfilm-ihMzQV3lleo-unsplash.jpg"
           alt="People talking at a computer"
         />
       </div>
     </div>
-    <section
-      class="max-w-sm px-5 py-10 mx-auto sm:max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-5xl"
-    >
-      <h1 class="text-2xl font-bold text-gray-900">Support Options</h1>
-      <div class="flex flex-wrap justify-start -mx-4">
-        <div
-          class="w-full px-4 mt-6 lg:w-1/2 xl:w-1/3"
-          v-for="(option, i) in supportOptions"
-          :key="i"
-        >
-          <SupportOptions :option="option" />
-        </div>
-      </div>
-    </section>
   </main>
 </template>
 

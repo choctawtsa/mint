@@ -2,12 +2,12 @@
   <main id="dictionary">
     <div class="bg-teal-200">
       <div
-        class="container mx-auto px-8 py-8 lg:flex lg:justify-between lg:items-center lg:py-16"
+        class="container px-8 py-8 mx-auto lg:flex lg:justify-between lg:items-center lg:py-16"
       >
-        <h1 class="font-black text-teal-900 text-4xl lg:text-5xl xl:text-6xl">
+        <h1 class="text-4xl font-black text-teal-900 lg:text-5xl xl:text-6xl">
           Dictionary
         </h1>
-        <p class="text-teal-900 mt-4 text-sm sm:text-base lg:w-1/2 xl:w-1/3">
+        <p class="mt-4 text-sm text-teal-900 sm:text-base lg:w-1/2 xl:w-1/3">
           There's obviously a lot of stuff that goes into a company's name, and
           we're no different. Each letter in our name has a few meanings; we've
           listed them below.
@@ -15,7 +15,7 @@
       </div>
     </div>
     <svg
-      class="wavy-border fill-current text-teal-200"
+      class="text-teal-200 fill-current wavy-border"
       viewBox="0 0 1695 57"
       preserveAspectRatio="none"
     >
@@ -24,15 +24,15 @@
         fill-rule="evenodd"
       ></path>
     </svg>
-    <div class="container mx-auto px-8 mt-8 md:mt-12 xl:mt-16" id="definitions">
-      <h2 class="text-3xl text-gray-900 font-serif font-black">
+    <div class="container px-8 mx-auto mt-8 md:mt-12 xl:mt-16" id="definitions">
+      <h2 class="font-serif text-3xl font-black text-gray-900">
         innovative
         <br class="sm:hidden" />
-        <span class="text-base text-gray-500 italic"
+        <span class="text-base italic text-gray-500"
           >[ in &bull; uh &bull; vey &bull; tiv ]</span
         >
       </h2>
-      <ol class="list-definition mt-2">
+      <ol class="mt-2 list-definition">
         <li>
           tending to innovate , or introduce something new or different;
           characterized by innovation.

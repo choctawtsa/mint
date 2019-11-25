@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="h-screen flex">
+  <div id="app" class="flex h-screen">
     <Nav />
     <BreakpointIndicator v-if="dev" />
     <div class="flex-1 min-w-0">

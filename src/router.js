@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Dictionary from "./views/Dictionary.vue";
 import Support from "./views/Support.vue";
+import EnvironmentalImpact from "./views/EnvironmentalImpact.vue";
 
 Vue.use(Router);
 
@@ -24,6 +25,11 @@ export default new Router({
       path: "/support",
       name: "support",
       component: Support
+    },
+    {
+      path: "/environmental-impact",
+      name: "environmental-impact",
+      component: EnvironmentalImpact
     },
     {
       path: "*",
