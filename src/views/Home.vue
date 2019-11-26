@@ -71,7 +71,7 @@
         <div
           class="w-2/3 mx-8 py-12 sm:mx-12 sm:py-16 lg:max-w-lg xl:w-1/2 xl:mx-20 xl:py-20"
         >
-          <p class="font-mono text-lg font-medium text-gray-500 uppercase">
+          <p class="font-mono lg:text-lg font-medium text-gray-500 uppercase">
             World-class support
           </p>
           <h1 class="text-4xl font-bold leading-tight text-white">
