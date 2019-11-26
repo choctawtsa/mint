@@ -60,7 +60,9 @@
     <div
       class="mx-auto px-6 py-8 sm:max-w-full sm:px-12 md:max-w-lg lg:max-w-full lg:px-16 xl:px-32"
     >
-      <div class="flex w-full mx-auto overflow-hidden bg-gray-900 rounded-lg">
+      <div
+        class="flex w-full mx-auto overflow-hidden bg-gray-900 rounded-lg shadow-lg"
+      >
         <div class="flex-shrink-0 hidden w-1/3 lg:relative lg:block xl:w-1/2">
           <img
             class="absolute inset-0 object-cover object-center w-full h-full"
@@ -71,7 +73,7 @@
         <div
           class="w-2/3 mx-8 py-12 sm:mx-12 sm:py-16 lg:max-w-lg xl:w-1/2 xl:mx-20 xl:py-20"
         >
-          <p class="font-mono lg:text-lg font-medium text-gray-500 uppercase">
+          <p class="font-mono font-medium text-gray-500 uppercase lg:text-lg">
             World-class support
           </p>
           <h1 class="text-4xl font-bold leading-tight text-white">
