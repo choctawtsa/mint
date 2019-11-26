@@ -1,6 +1,7 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
 
 .wavy-border {
   @apply left-0 w-full bottom-auto;
@@ -15,7 +16,6 @@
 .btn-teal {
   @apply bg-teal-500 text-white;
 }
-/* purgecss end ignore */
 
 @tailwind utilities;
 

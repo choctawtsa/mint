@@ -2,7 +2,7 @@
   <main id="dictionary">
     <div class="bg-teal-200">
       <div
-        class="container px-8 py-8 mx-auto lg:flex lg:justify-between lg:items-center lg:py-16"
+        class="container mx-auto px-8 py-8 lg:flex lg:items-center lg:justify-between lg:py-16"
       >
         <h1 class="text-4xl font-black text-teal-900 lg:text-5xl xl:text-6xl">
           Dictionary
@@ -24,7 +24,7 @@
         fill-rule="evenodd"
       ></path>
     </svg>
-    <div class="container px-8 mx-auto mt-8 md:mt-12 xl:mt-16" id="definitions">
+    <div class="container mx-auto mt-8 px-8 md:mt-12 xl:mt-16" id="definitions">
       <h2 class="font-serif text-3xl font-black text-gray-900">
         innovative
         <br class="sm:hidden" />

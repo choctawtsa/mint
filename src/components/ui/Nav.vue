@@ -1,19 +1,19 @@
 <template>
   <div>
-    <!--  -->
     <header
       id="menu"
-      class="fixed top-0 left-0 z-30 w-screen bg-gray-800 shadow-md md:hidden"
+      :class="sidebarOpen ? 'opacity-25' : 'opacity-100'"
+      class="fixed top-0 left-0 z-30 w-screen bg-white shadow-md md:hidden transition-medium"
     >
       <div
-        class="container mx-auto md:flex md:justify-between md:items-center md:px-4 md:py-3"
+        class="container mx-auto md:flex md:items-center md:justify-between md:px-4 md:py-3"
       >
         <div class="flex items-center justify-between px-4 py-3 md:p-0">
           <div>
             <router-link to="/">
               <img
                 class="h-8"
-                src="/img/logos/dark-background.svg"
+                src="/img/logos/light-background.svg"
                 alt="Mint logo"
               />
             </router-link>
@@ -22,19 +22,18 @@
             <button
               @click="sidebarOpen = true"
               type="button"
-              class="block p-2 -m-2 text-gray-700 hover:text-gray-600 focus:text-gray-600 focus:outline-none"
+              class="block -m-2 p-2 text-gray-500 hover:text-gray-600 focus:text-gray-600 focus:outline-none"
             >
               <svg
+                v-if="!sidebarOpen"
                 class="w-6 h-6 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 18 12"
               >
                 <path
-                  v-if="!sidebarOpen"
                   d="M.948 0h16.103c.522 0 .95.427.95.949v.102a.952.952 0 01-.95.949H.948A.95.95 0 010 1.051V.949A.95.95 0 01.948 0zM17.051 5H.948A.95.95 0 000 5.949v.102A.95.95 0 00.948 7h16.103a.952.952 0 00.95-.949v-.102A.952.952 0 0017.05 5zM11 10H1c-.5 0-1 .427-1 .949v.102C0 11.573.5 12 1 12h10c.5 0 1-.427 1-.949v-.102c0-.522-.5-.949-1-.949z"
                 />
                 <path
-                  v-if="!sidebarOpen"
                   d="M.948 0h16.103c.522 0 .95.427.95.949v.102a.952.952 0 01-.95.949H.948A.95.95 0 010 1.051V.949A.95.95 0 01.948 0zM17.051 5H.948A.95.95 0 000 5.949v.102A.95.95 0 00.948 7h16.103a.952.952 0 00.95-.949v-.102A.952.952 0 0017.05 5zM11 10H1c-.5 0-1 .427-1 .949v.102C0 11.573.5 12 1 12h10c.5 0 1-.427 1-.949v-.102c0-.522-.5-.949-1-.949z"
                 />
               </svg>
@@ -55,7 +54,7 @@
       <div class="absolute top-0 right-0 mt-10 mr-8 md:hidden">
         <button
           @click="sidebarOpen = false"
-          class="p-2 -m-2 text-gray-500 hover:text-gray-400 focus:text-gray-400 focus:outline:none"
+          class="-m-2 p-2 text-gray-500 hover:text-gray-400 focus:text-gray-400 focus:outline:none"
         >
           <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
             <path
@@ -195,7 +194,7 @@
           </div>
         </div>
       </div>
-      <!--<div class="px-8 py-4 -mt-2 text-gray-700 bg-gray-900 text-center">
+      <!--<div class="-mt-2 px-8 py-4 text-gray-700 bg-gray-900 text-center">
       <p class="text-sm">Mint Electric &copy; 2019</p>
       </div>-->
     </nav>
