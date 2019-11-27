@@ -27,27 +27,3 @@
     </div>
   </main>
 </template>
-
-<script>
-import SupportOptions from "@/components/SupportOptions.vue";
-
-export default {
-  components: {
-    SupportOptions
-  },
-  data() {
-    return {
-      supportOptions: [
-        {
-          title: "Phone Support",
-          waitTime: "2 minutes",
-          action: "Call",
-          actionUrl: "#",
-          imageUrl: "/img/icons/Support.svg",
-          imageAlt: "Phone icon"
-        }
-      ]
-    };
-  }
-};
-</script>
