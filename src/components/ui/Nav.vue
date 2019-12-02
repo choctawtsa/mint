@@ -106,37 +106,6 @@
                 >Lithium</span
               >
             </a>
-            <a
-              href="#"
-              class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-900"
-            >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Beryllium</span
-              >
-              <span
-                class="px-2 py-px text-xs font-semibold tracking-wide text-teal-600 uppercase bg-teal-900 rounded-full"
-                >New</span
-              >
-            </a>
-            <a
-              href="#"
-              class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-900"
-            >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Boron</span
-              >
-            </a>
-            <a
-              href="#"
-              class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-900"
-            >
-              <span
-                class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Carbon</span
-              >
-            </a>
           </div>
         </div>
         <div class="mt-8">
