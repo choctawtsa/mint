@@ -36,6 +36,13 @@
           src="/img/_m_v_-ZxQE-mbf9_s-unsplash.jpg"
           alt="Interstate"
         />
+        <svg
+          class="absolute inset-0 w-16 h-full text-gray-100 fill-current"
+          preserveAspectRatio="none"
+          viewBox="0 0 100 100"
+        >
+          <polygon points="100,0 0,100 0,0" />
+        </svg>
       </div>
     </div>
     <div>
