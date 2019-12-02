@@ -147,27 +147,6 @@ export default {
           thumbnailUrl:
             "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
           thumbnailAlt: "Placeholder"
-        },
-        {
-          name: "Beryllium",
-          monthlyPrice: 0,
-          thumbnailUrl:
-            "https://images.unsplash.com/photo-1552519507-88aa2dfa9fdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-          thumbnailAlt: "Placeholder"
-        },
-        {
-          name: "Boron",
-          monthlyPrice: 0,
-          thumbnailUrl:
-            "https://images.unsplash.com/photo-1549632891-a0bea6d0355b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1344&q=80",
-          thumbnailAlt: "Placeholder"
-        },
-        {
-          name: "Carbon",
-          monthlyPrice: 0,
-          thumbnailUrl:
-            "https://images.unsplash.com/photo-1546110975-1039aa313845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-          thumbnailAlt: "Placeholder"
         }
       ]
     };
