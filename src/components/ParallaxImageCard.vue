@@ -12,7 +12,7 @@
           />
         </div>
         <div
-          class="w-2/3 mx-8 py-12 sm:mx-12 sm:py-16 lg:max-w-lg xl:w-1/2 xl:mx-20 xl:py-20"
+          class="w-2/3 mx-8 py-12 sm:mx-12 sm:py-16 lg:max-w-lg xl:w-1/2 2xl:mx-20 2xl:py-20"
         >
           <parallax-element :parallaxStrength="3" type="depth" tag="div">
             <p class="font-mono font-medium text-gray-500 uppercase lg:text-lg">

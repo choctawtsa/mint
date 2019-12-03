@@ -37,11 +37,11 @@
           alt="Interstate"
         />
         <svg
-          class="absolute inset-0 w-16 h-full text-gray-100 fill-current"
+          class="absolute inset-0 w-12 h-full text-gray-100 fill-current"
           preserveAspectRatio="none"
           viewBox="0 0 100 100"
         >
-          <polygon points="100,0 0,100 0,0" />
+          <polygon points="0,0 100,0 0,100" />
         </svg>
       </div>
     </div>
