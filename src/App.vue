@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="flex h-screen">
     <Nav />
-    <BreakpointIndicator v-if="breakpointIndicator" />
+    <BreakpointIndicator v-if="breakpointIndicatorOn" />
     <div class="flex-1">
       <vue-page-transition name="fade-in-up">
         <router-view />
@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      breakpointIndicator: false
+      breakpointIndicatorOn: false
     };
   }
 };
