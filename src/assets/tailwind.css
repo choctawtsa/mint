@@ -69,12 +69,12 @@
 
 /* purgecss start ignore */
 .current-page {
-  @apply border-l-4 rounded-l-none border-teal-500 mx-1 py-1 my-2;
+  @apply border-l-4 rounded-l-none border-teal-500 pl-2 mx-1 py-1 my-2;
 }
 
 @screen md {
   .current-page {
-    @apply rounded-lg border-none bg-gray-900 shadow-inner mx-0 py-2 my-0;
+    @apply rounded-lg border-none bg-gray-900 shadow-inner mx-0 pl-3 py-2 my-0;
   }
 }
 /* purgecss end ignore */
