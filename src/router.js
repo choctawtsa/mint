@@ -32,10 +32,14 @@ export default new Router({
       component: EnvironmentalImpact
     },
     {
+      path: "/carbon-impact",
+      redirect: "/environmental-impact"
+    },
+    {
       path: "*",
       name: "404",
       component: () => import("./views/404.vue")
     }
   ],
-  linkActiveClass: "bg-gray-900 text-gray-300 shadow-inner"
+  linkExactActiveClass: "route-active"
 });

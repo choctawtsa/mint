@@ -2,8 +2,8 @@
   <div>
     <header
       id="menu"
-      :class="sidebarOpen ? 'opacity-25' : 'opacity-100'"
-      class="fixed top-0 left-0 z-30 w-screen bg-white shadow-md md:hidden transition-medium"
+      :class="sidebarOpen ? 'opacity-0 shadow-none' : 'opacity-100 shadow-md'"
+      class="fixed top-0 left-0 z-30 w-screen bg-white md:hidden transition-medium"
     >
       <div
         class="container mx-auto md:flex md:items-center md:justify-between md:px-4 md:py-3"
@@ -49,7 +49,7 @@
           ? 'translate-x-0 ease-out transition-medium'
           : '-translate-x-full ease-in transition-medium'
       "
-      class="fixed inset-y-0 left-0 z-50 flex-shrink-0 w-64 overflow-auto bg-gray-800 md:translate-x-0"
+      class="fixed inset-y-0 left-0 z-50 flex-shrink-0 w-64 overflow-auto md:translate-x-0 frosted-glass md:not-frosted-glass"
     >
       <div class="absolute top-0 right-0 mt-10 mr-8 md:hidden">
         <button
@@ -163,16 +163,13 @@
           </div>
         </div>
       </div>
-      <!--<div class="-mt-2 px-8 py-4 text-gray-700 bg-gray-900 text-center">
-      <p class="text-sm">Mint Electric &copy; 2019</p>
-      </div>-->
     </nav>
     <div
       v-if="sidebarOpen"
       @click="sidebarOpen = !sidebarOpen"
       :class="sidebarOpen ? 'opacity-100' : 'opacity-0'"
       class="fixed top-0 bottom-0 left-0 right-0 z-40 block w-full h-full md:hidden transition-medium transition-fade"
-      style="background: rgba(0,0,0,0.7);content:''"
+      style="background: rgba(0,0,0,0.65);content:''"
     ></div>
   </div>
 </template>
@@ -181,7 +178,7 @@
 export default {
   data() {
     return {
-      sidebarOpen: false
+      sidebarOpen: true
     };
   },
   watch: {

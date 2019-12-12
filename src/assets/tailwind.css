@@ -37,6 +37,19 @@
   }
 }
 
+@responsive {
+  @supports (backdrop-filter: blur(10px)) {
+    .frosted-glass {
+      backdrop-filter: saturate(150%) blur(10px);
+      background-color: rgba(26, 32, 44, 0.4);
+    }
+    .not-frosted-glass {
+      backdrop-filter: none;
+      @apply bg-gray-800;
+    }
+  }
+}
+
 @variants {
   .transition-fade {
     transition: opacity 0.2s;
@@ -54,8 +67,14 @@
   @apply text-teal-500 font-bold ml-4 mr-2;
 }
 
-.router-link-active- {
-  @apply bg-gray-900 text-gray-300;
+.route-active {
+  @apply border-l-4 rounded-l-none border-teal-500 mx-1 py-1 my-2;
+}
+
+@screen md {
+  .route-active {
+    @apply rounded-lg border-none bg-gray-900 shadow-inner mx-0 py-2 my-0;
+  }
 }
 
 #navigation::-webkit-scrollbar {
