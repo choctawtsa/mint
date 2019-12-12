@@ -41,5 +41,5 @@ export default new Router({
       component: () => import("./views/404.vue")
     }
   ],
-  linkExactActiveClass: "route-active"
+  linkExactActiveClass: "current-page"
 });
