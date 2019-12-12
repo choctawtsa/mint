@@ -83,10 +83,6 @@
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
                 >Hydrogen</span
               >
-              <span
-                class="px-2 py-px text-xs font-semibold tracking-wide text-teal-600 uppercase bg-teal-900 rounded-full"
-                >New</span
-              >
             </a>
             <a
               href="#"
@@ -105,6 +101,10 @@
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
                 >Lithium</span
               >
+              <span
+                class="px-2 py-px text-xs font-semibold tracking-wide text-teal-600 uppercase bg-teal-900 rounded-full"
+                >New</span
+              >
             </a>
           </div>
         </div>
@@ -118,6 +118,7 @@
             <router-link
               to="/support"
               class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-900"
+              exact-active-class="current-page"
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
@@ -127,6 +128,7 @@
             <router-link
               to="/dictionary"
               class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-900"
+              exact-active-class="current-page"
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
@@ -136,6 +138,7 @@
             <router-link
               to="/environmental-impact"
               class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-900"
+              exact-active-class="current-page"
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
@@ -178,7 +181,7 @@
 export default {
   data() {
     return {
-      sidebarOpen: false
+      sidebarOpen: true
     };
   },
   watch: {
