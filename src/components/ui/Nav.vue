@@ -46,8 +46,8 @@
       id="navigation"
       :class="
         sidebarOpen
-          ? 'translate-x-0 ease-in transition-medium'
-          : '-translate-x-full ease-out transition-medium'
+          ? 'translate-x-0 ease-out transition-medium'
+          : '-translate-x-full ease-in transition-medium'
       "
       class="fixed inset-y-0 left-0 z-50 flex-shrink-0 w-64 overflow-auto md:translate-x-0 frosted-glass md:not-frosted-glass"
     >
