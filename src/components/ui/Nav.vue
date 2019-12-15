@@ -13,7 +13,7 @@
             <router-link to="/">
               <img
                 class="h-8"
-                src="/img/logos/light-background.svg"
+                src="https://cdn.choctawtsa.org/mint/light-background.svg"
                 alt="Mint logo"
               />
             </router-link>
@@ -66,7 +66,11 @@
       </div>
       <div class="h-screen px-8 py-8">
         <router-link to="/">
-          <img class="h-8" src="/img/logos/dark-background.svg" alt="Mint" />
+          <img
+            class="h-8"
+            src="https://cdn.choctawtsa.org/mint/dark-background.svg"
+            alt="Mint"
+          />
         </router-link>
         <div class="mt-12">
           <h2

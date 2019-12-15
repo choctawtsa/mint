@@ -7,7 +7,7 @@
         <div class="xl:max-w-lg xl:mx-auto">
           <img
             class="-mt-4 rounded-lg shadow-xl sm:object-cover sm:object-center sm:w-full sm:-mt-4 lg:hidden sm:h-72"
-            src="/img/_m_v_-ZxQE-mbf9_s-unsplash.jpg"
+            src="https://cdn.choctawtsa.org/mint/_m_v_-ZxQE-mbf9_s-unsplash.jpg"
             alt="Interstate"
           />
           <h1
@@ -33,7 +33,7 @@
       <div class="hidden lg:relative lg:block lg:w-1/2">
         <img
           class="absolute inset-0 object-cover object-center w-full h-full"
-          src="/img/_m_v_-ZxQE-mbf9_s-unsplash.jpg"
+          src="https://cdn.choctawtsa.org/mint/_m_v_-ZxQE-mbf9_s-unsplash.jpg"
           alt="Interstate"
         />
         <svg
@@ -68,7 +68,7 @@
       class="mx-auto px-6 py-8 sm:max-w-full sm:px-12 md:max-w-lg lg:max-w-full lg:px-16 xl:px-32"
     >
       <ParallaxImageCard
-        img-url="https://images.unsplash.com/photo-1556761175-b413da4baf72?sat=-100&blend=38B2AC&blend-mode=multiply"
+        img-url="https://cdn.choctawtsa.org/mint/photo-1556761175-b413da4baf72.jpg"
         img-alt="Support desk"
       >
         <template v-slot:subtitle>World-class support</template>
@@ -131,21 +131,21 @@ export default {
           name: "Hydrogen",
           monthlyPrice: 0,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "https://cdn.choctawtsa.org/mint/photo-1494976388531-d1058494cdd8.jpg",
           thumbnailAlt: "Placeholder"
         },
         {
           name: "Helium",
           monthlyPrice: 0,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "https://cdn.choctawtsa.org/mint/photo-1532988633349-d3dfb28ee834.jpg",
           thumbnailAlt: "Placeholder"
         },
         {
           name: "Lithium",
           monthlyPrice: 0,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "https://cdn.choctawtsa.org/mint/photo-1541443131876-44b03de101c5.jpg",
           thumbnailAlt: "Placeholder"
         }
       ]

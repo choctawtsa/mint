@@ -20,7 +20,7 @@
       <div class="hidden -mb-1 lg:relative lg:block lg:w-1/2">
         <img
           class="absolute inset-0 object-cover object-right w-full h-full"
-          src="/img/rawfilm-ihMzQV3lleo-unsplash.jpg"
+          src="https://cdn.choctawtsa.org/mint/rawfilm-ihMzQV3lleo-unsplash.jpg"
           alt="Wind farm"
         />
       </div>

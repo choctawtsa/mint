@@ -20,7 +20,7 @@
       <div class="hidden -mb-1 lg:relative lg:block lg:w-1/2">
         <img
           class="absolute inset-0 object-cover object-right w-full h-full"
-          src="/img/austin-distel-mpN7xjKQ_Ns-unsplash.jpg"
+          src="https://cdn.choctawtsa.org/mint/austin-distel-mpN7xjKQ_Ns-unsplash.jpg"
           alt="People talking at a computer"
         />
       </div>
