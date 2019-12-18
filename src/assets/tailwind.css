@@ -43,10 +43,15 @@
       backdrop-filter: saturate(150%) blur(10px);
       background-color: rgba(26, 32, 44, 0.4);
     }
-    .not-frosted-glass {
-      backdrop-filter: none;
+  }
+  @supports not (backdrop-filter: blur(10px)) {
+    .frosted-glass {
       @apply bg-gray-800;
     }
+  }
+  .not-frosted-glass {
+    backdrop-filter: none;
+    @apply bg-gray-800;
   }
 }
 
