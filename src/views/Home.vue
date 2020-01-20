@@ -25,8 +25,9 @@
             <a
               href="#"
               class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-teal-500 border border-teal-500 rounded shadow-lg sm:mt-6 hover:bg-teal-600 hover:border-teal-600 hover:shadow-2xl transition-medium"
-              >Browse products</a
             >
+              Browse products
+            </a>
           </div>
         </div>
       </div>
@@ -53,12 +54,8 @@
         <p class="text-gray-600">
           No matter what you do, there's a Mint model to fit your needs.
         </p>
-        <div class="flex flex-wrap justify-center -mx-4">
-          <div
-            class="w-full mt-6 px-4 lg:w-1/2 xl:w-1/3"
-            v-for="(model, i) in carModels"
-            :key="i"
-          >
+        <div class="mt-6 grid lg:grid-cols-2 xl:grid-cols-3 gap-6 ">
+          <div class="w-full" v-for="(model, i) in carModels" :key="i">
             <CarModel :model="model" />
           </div>
         </div>
@@ -73,19 +70,19 @@
       >
         <template v-slot:subtitle>World-class support</template>
         <template v-slot:title>We're here to help.</template>
-        <template v-slot:body
-          >Our support staff are expertly-trained to provide you with the best
+        <template v-slot:body>
+          Our support staff are expertly-trained to provide you with the best
           solution to any problem you may have, no matter the time of day (or
-          night).</template
-        >
+          night).
+        </template>
         <template v-slot:button>
           <router-link
             to="/support"
             class="inline-flex items-center mt-8 px-4 py-2 text-sm font-semibold bg-white rounded hover:bg-gray-300 transition-medium"
           >
             <span class="text-gray-800 ">Visit the support desk</span>
-            <span class="py-1 pl-3"
-              ><svg
+            <span class="py-1 pl-3">
+              <svg
                 class="text-gray-600 fill-current"
                 width="18"
                 height="18"
