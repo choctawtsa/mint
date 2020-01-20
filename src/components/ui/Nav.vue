@@ -3,7 +3,7 @@
     <header
       id="menu"
       :class="sidebarOpen ? 'opacity-0 shadow-none' : 'opacity-100 shadow-md'"
-      class="fixed top-0 left-0 z-30 w-screen bg-white md:hidden transition-medium"
+      class="fixed top-0 left-0 z-30 w-screen bg-white md:hidden duration-200"
     >
       <div
         class="container mx-auto md:flex md:items-center md:justify-between md:px-4 md:py-3"
@@ -46,10 +46,10 @@
       id="navigation"
       :class="
         sidebarOpen
-          ? 'translate-x-0 ease-out transition-medium'
-          : '-translate-x-full ease-in transition-medium'
+          ? 'translate-x-0 ease-out duration-200'
+          : '-translate-x-full ease-in duration-200'
       "
-      class="fixed inset-y-0 left-0 z-50 flex-shrink-0 w-64 overflow-auto md:translate-x-0 frosted-glass md:not-frosted-glass"
+      class="fixed inset-y-0 left-0 z-50 flex-shrink-0 w-64 overflow-auto md:translate-x-0 frosted-glass md:not-frosted-glass transform"
     >
       <div class="absolute top-0 right-0 mt-10 mr-8 md:hidden">
         <button
@@ -85,8 +85,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Hydrogen</span
               >
+                Hydrogen
+              </span>
             </a>
             <a
               href="#"
@@ -94,8 +95,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Helium</span
               >
+                Helium
+              </span>
             </a>
             <a
               href="#"
@@ -103,12 +105,14 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Lithium</span
               >
+                Lithium
+              </span>
               <span
                 class="px-2 py-px text-xs font-semibold tracking-wide text-teal-600 uppercase bg-teal-900 rounded-full"
-                >New</span
               >
+                New
+              </span>
             </a>
           </div>
         </div>
@@ -126,8 +130,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Support</span
               >
+                Support
+              </span>
             </router-link>
             <router-link
               to="/dictionary"
@@ -136,8 +141,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Dictionary</span
               >
+                Dictionary
+              </span>
             </router-link>
             <router-link
               to="/environmental-impact"
@@ -146,8 +152,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Environmental Impact</span
               >
+                Environmental Impact
+              </span>
             </router-link>
             <a
               href="#"
@@ -155,8 +162,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Press</span
               >
+                Press
+              </span>
             </a>
             <a
               href="#"
@@ -164,8 +172,9 @@
             >
               <span
                 class="text-sm font-medium text-gray-400 hover:text-gray-300"
-                >Legal</span
               >
+                Legal
+              </span>
             </a>
           </div>
         </div>
@@ -175,7 +184,7 @@
       v-if="sidebarOpen"
       @click="sidebarOpen = !sidebarOpen"
       :class="sidebarOpen ? 'opacity-100' : 'opacity-0'"
-      class="fixed top-0 bottom-0 left-0 right-0 z-40 block w-full h-full md:hidden transition-medium transition-fade"
+      class="fixed top-0 bottom-0 left-0 right-0 z-40 block w-full h-full md:hidden duration-200 transition-all"
       style="background: rgba(0,0,0,0.65);content:''"
     ></div>
   </div>

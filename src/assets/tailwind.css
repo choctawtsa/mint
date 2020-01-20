@@ -4,22 +4,22 @@
 /* purgecss end ignore */
 
 .wavy-border {
-  @apply left-0 w-full bottom-auto;
+  @apply left-0 bottom-auto w-full;
   top: -6px;
   transform: rotate(180deg);
 }
 
 .btn {
-  @apply inline-block px-6 py-2 rounded-full uppercase tracking-wider font-semibold text-sm;
+  @apply inline-block px-6 py-2 text-sm font-semibold tracking-wider uppercase rounded-full;
 }
 
 .btn-teal {
-  @apply bg-teal-500 text-white;
+  @apply text-white bg-teal-500;
 }
 
 @tailwind utilities;
 
-@responsive {
+/* @responsive {
   .-translate-x-full {
     transform: translateX(-100%);
   }
@@ -35,7 +35,7 @@
   .ease-in {
     transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
   }
-}
+} */
 
 @responsive {
   @supports (backdrop-filter: blur(10px)) {
@@ -69,17 +69,17 @@
 }
 .list-definition li::before {
   content: counter(definition-counter) " ";
-  @apply text-teal-500 font-bold ml-4 mr-2;
+  @apply ml-4 mr-2 font-bold text-teal-500;
 }
 
 /* purgecss start ignore */
 .current-page {
-  @apply border-l-4 rounded-l-none border-teal-500 pl-2 mx-1 py-1 my-2;
+  @apply mx-1 my-2 py-1 pl-2 border-l-4 border-teal-500 rounded-l-none;
 }
 
 @screen md {
   .current-page {
-    @apply rounded-lg border-none bg-gray-900 shadow-inner mx-0 pl-3 py-2 my-0;
+    @apply mx-0 my-0 py-2 pl-3 bg-gray-900 border-none rounded-lg shadow-inner;
   }
 }
 /* purgecss end ignore */
