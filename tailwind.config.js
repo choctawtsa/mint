@@ -16,6 +16,7 @@ module.exports = {
         "7": "1.75rem",
         "9": "2.25rem",
         "14": "3.5rem",
+        "18": "4.5rem",
         "30": "7.5rem",
         "36": "9rem",
         "53px": "53px"
@@ -28,6 +29,9 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    backgroundColor: ["responsive", "hover", "focus", "focus-within"],
+    borderColor: ["responsive", "hover", "focus", "focus-within"]
+  },
   plugins: []
 };

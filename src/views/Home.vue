@@ -85,6 +85,46 @@
           generations to come.
         </p>
       </section>
+      <section class="container mx-auto mt-10">
+        <div
+          class="flex items-center justify-between bg-teal-900 rounded-lg px-18 py-18"
+        >
+          <div>
+            <h3 class="text-4xl font-bold text-teal-200">
+              Want news on our upcoming products?
+            </h3>
+            <p class="text-2xl text-teal-400">Sign up to get updates.</p>
+          </div>
+          <div class="flex-shrink-0 max-w-xs">
+            <div
+              class="flex items-center justify-between pt-1 pb-1 pl-4 pr-1 bg-teal-100 border-2 border-teal-900 rounded-lg focus-within:bg-white focus-within:border-teal-300"
+            >
+              <label for="newsletter-email" class="sr-only">
+                Enter your email
+              </label>
+              <input
+                class="min-w-0 text-teal-900 placeholder-gray-600 bg-transparent focus:outline-none"
+                type="email"
+                name="newsletter-email"
+                id="newsletter-email"
+                placeholder="Enter your email"
+              />
+              <button
+                type="submit"
+                class="ml-2 px-4 py-2 text-sm text-white bg-gray-800 rounded focus:shadow-outline focus:outline-none"
+              >
+                Submit
+              </button>
+            </div>
+            <p class="block mt-4 px-2 text-sm text-teal-400">
+              We care about the protection of your data. Read our
+              <a class="font-medium text-teal-200 underline" href="#">
+                Privacy Policy.
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
       <section class="container mx-auto mt-10 pb-10 mosaic">
         <img
           class="object-cover w-full h-full rounded-lg col-span-3 row-span-2"
