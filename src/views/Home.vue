@@ -73,9 +73,53 @@
           </div>
         </div>
       </section>
+      <section class="container mx-auto">
+        <h2 class="text-4xl font-bold text-white text-center">
+          For the
+          <span class="text-teal-500">planet,</span>
+          not the profits.
+        </h2>
+        <p class="max-w-3xl mx-auto mt-2 text-gray-600 text-center">
+          Our business model doesn’t revolve around sales; our focus is on
+          creating a sustainable future and making this planet habitable for
+          generations to come.
+        </p>
+      </section>
+      <section class="container mx-auto mt-10 pb-10 mosaic">
+        <img
+          class="object-cover w-full h-full rounded-lg col-span-3 row-span-2"
+          src="img/abhinav-raina-cyQiSGGDThQ-unsplash.jpg"
+          alt="A dam with water flowing through"
+        />
+        <img
+          class="object-cover w-full h-full rounded-lg col-span-3 row-span-1"
+          src="img/ajay-pal-singh-atwal-gRdTreyRops-unsplash.jpg"
+          alt="A nuclear power plant"
+        />
+        <img
+          class="object-cover w-full h-full rounded-lg col-span-3 row-span-1"
+          src="img/american-public-power-association-dCx2xFuPWks-unsplash.jpg"
+          alt="A solar farm"
+        />
+        <img
+          class="object-cover w-full h-full rounded-lg col-span-6 row-span-1"
+          src="img/science-in-hd-b_HIKRj7EcY-unsplash.jpg"
+          alt="A nuclear power plant"
+        />
+      </section>
     </main>
   </div>
 </template>
+
+<style lang="postcss" scoped>
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 14rem));
+  grid-gap: 1.25rem;
+  gap: 1.25rem;
+}
+</style>
 
 <script>
 // import CarModel from "@/components/CarModel";
