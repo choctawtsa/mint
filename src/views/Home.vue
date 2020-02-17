@@ -29,7 +29,7 @@
         </nav>
         <div class="pt-12 pb-16 sm:pt-16 sm:pb-24 xl:pt-24 xl:pb-48 lg:pb-36">
           <h1
-            class="mx-auto text-3xl font-bold leading-tight tracking-tight text-white xs:text-4xl sm:text-5xl xl:max-w-6xl xl:text-6xl text-center"
+            class="mx-auto text-3xl font-bold leading-tight tracking-tight text-white xs:text-5xl sm:text-6xl xl:max-w-6xl xl:text-7xl text-center"
           >
             Building a more sustainable future,
             <br class="hidden lg:inline" />
@@ -75,7 +75,7 @@
       </section>
       <section class="container mx-auto mt-10 px-6 lg:mt-0">
         <h2
-          class="text-3xl font-bold leading-tight text-gray-900 md:text-4xl text-center"
+          class="text-3xl font-bold leading-tight text-gray-900 md:text-5xl text-center"
         >
           For the
           <span class="text-teal-500">planet,</span>
@@ -255,7 +255,7 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="font-semibold text-gray-900 text-2xl lg:text-3.5xl leading-tight"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl"
                 >
                   $682
                   <span class="text-lg font-medium text-gray-600 lg:text-xl">
@@ -283,7 +283,7 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="font-semibold text-gray-900 text-2xl lg:text-3.5xl leading-tight"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl"
                 >
                   $1,179
                   <span class="text-lg font-medium text-gray-600 lg:text-xl">
@@ -294,7 +294,7 @@
               </div>
             </div>
             <div
-              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white rounded-lg shadow-inner lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white border border-gray-300 rounded-lg lg:flex lg:px-8 lg:pt-7 lg:pb-8"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
@@ -310,7 +310,7 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="font-semibold text-gray-900 text-2xl lg:text-3.5xl leading-tight"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl"
                 >
                   $1,195
                   <span class="text-lg font-medium text-gray-600 lg:text-xl">
@@ -329,7 +329,7 @@
         >
           <div>
             <h3
-              class="text-3xl font-bold leading-tight text-teal-900 sm:text-4xl"
+              class="text-3xl font-bold leading-tight text-teal-900 sm:text-5xl"
             >
               Want news on our upcoming products?
             </h3>
@@ -383,7 +383,7 @@
           <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
             Hydroelectric Power
           </p>
-          <h2 class="text-4xl font-bold leading-tight text-white">
+          <h2 class="text-5xl font-bold leading-tight text-white">
             Go with the flow
           </h2>
           <p class="mt-4 text-gray-400">
@@ -400,7 +400,7 @@
           <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
             Nuclear Power
           </p>
-          <h2 class="text-4xl font-bold leading-tight text-white">
+          <h2 class="text-5xl font-bold leading-tight text-white">
             n&uuml;k
           </h2>
           <p class="mt-4 text-gray-400">
@@ -424,7 +424,7 @@
           <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
             Solar Power
           </p>
-          <h2 class="text-4xl font-bold text-white">
+          <h2 class="text-5xl font-bold text-white">
             Eat the sun
           </h2>
           <p class="mt-4 text-gray-400">
