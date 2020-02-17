@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins"]
       },
+      fontSize: {
+        "3.5xl": "2rem"
+      },
       spacing: {
         "7": "1.75rem",
         "9": "2.25rem",
