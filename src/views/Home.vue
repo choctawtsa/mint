@@ -57,7 +57,7 @@
         class="mx-auto px-4 pt-4 lg:pt-0 xl:max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-12 transform lg:-translate-y-1/2"
       >
         <div
-          class="flex items-center overflow-hidden bg-gray-800 rounded-lg h-30"
+          class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg h-30"
           v-for="(car, i) in carModels"
           :key="i"
         >
@@ -67,21 +67,21 @@
             class="flex-shrink-0 object-cover h-30 w-30"
           />
           <div class="px-5 py-4">
-            <h4 class="text-2xl font-semibold text-white">{{ car.name }}</h4>
-            <p class="text-sm text-gray-600">From ${{ car.monthlyPrice }}/mo</p>
+            <h4 class="text-2xl font-semibold text-gray-900">{{ car.name }}</h4>
+            <p class="text-sm text-gray-700">From ${{ car.monthlyPrice }}/mo</p>
             <a href="#" class="block mt-2 text-teal-500">Explore</a>
           </div>
         </div>
       </section>
       <section class="container mx-auto mt-10 px-6 lg:mt-0">
         <h2
-          class="text-3xl font-bold leading-tight text-white md:text-4xl text-center"
+          class="text-3xl font-bold leading-tight text-gray-900 md:text-4xl text-center"
         >
           For the
           <span class="text-teal-500">planet,</span>
           not the profits.
         </h2>
-        <p class="max-w-3xl mx-auto mt-2 text-gray-600 text-center">
+        <p class="max-w-3xl mx-auto mt-2 text-gray-700 text-center">
           Our business model doesn’t revolve around sales; our focus is on
           creating a sustainable future and making this planet habitable for
           generations to come.
@@ -92,11 +92,11 @@
           <div class="col-span-3 lg:col-span-1">
             <div class="max-w-lg">
               <h2
-                class="text-2xl font-bold leading-tight text-white md:text-3xl"
+                class="text-2xl font-bold leading-tight text-gray-900 md:text-3xl"
               >
                 An investment like no other.
               </h2>
-              <p class="mt-2 text-gray-600">
+              <p class="mt-2 text-gray-700">
                 Mint electric vehicles are among the cheapest on the market.
                 You'll be reaping the benefits of a Mint vehicle for years to
                 come.
@@ -134,10 +134,10 @@
                   </svg>
                 </div>
                 <div class="ml-4">
-                  <h2 class="text-lg font-semibold text-white">
+                  <h2 class="text-lg font-semibold text-gray-900">
                     Impulse-buying cheap
                   </h2>
-                  <p class="mt-1 text-sm text-gray-600">
+                  <p class="mt-1 text-sm text-gray-700">
                     We know you put a lot of thought into the vehicle that
                     you'll be using for the next decade; that's why we've made
                     our cars the easy choice. Mint vehicles are 42.5% cheaper on
@@ -178,10 +178,10 @@
                   </svg>
                 </div>
                 <div class="ml-4">
-                  <h2 class="text-lg font-semibold text-white">
+                  <h2 class="text-lg font-semibold text-gray-900">
                     More reliable than the moon
                   </h2>
-                  <p class="mt-1 text-sm text-gray-600">
+                  <p class="mt-1 text-sm text-gray-700">
                     An unexpected issue with a vehicle can be the thing between
                     you and months of financial hardship. With a Mint vehicle,
                     that's something you can put behind you with our vehicles'
@@ -223,10 +223,10 @@
                   </svg>
                 </div>
                 <div class="ml-4">
-                  <h2 class="text-lg font-semibold text-white">
+                  <h2 class="text-lg font-semibold text-gray-900">
                     Gas is for chumps
                   </h2>
-                  <p class="mt-1 text-sm text-gray-600">
+                  <p class="mt-1 text-sm text-gray-700">
                     With any electric vehicle, you won't have to worry about
                     paying for gas. A Mint vehicle goes the extra mile by
                     leading the industry in efficieny, so you don't have to
@@ -238,15 +238,15 @@
           </div>
           <div class="mt-4 sm:mt-0 col-span-2 lg:col-span-1">
             <div
-              class="items-center justify-between px-6 pt-5 pb-6 bg-gray-800 border border-gray-700 rounded-lg lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between px-6 pt-5 pb-6 bg-white rounded-lg shadow-inner lg:flex lg:px-8 lg:pt-7 lg:pb-8"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
-                  class="font-semibold tracking-wider text-gray-600 uppercase"
+                  class="font-semibold tracking-wider text-gray-700 uppercase"
                 >
                   Mint
                 </h4>
-                <div class="w-full h-6 mt-1 bg-gray-700 rounded">
+                <div class="w-full h-6 mt-1 bg-teal-100 rounded shadow-inner">
                   <span
                     class="inline-block h-6 bg-teal-500 rounded"
                     style="width: 57.07113%"
@@ -255,26 +255,26 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="font-semibold text-white text-2xl lg:text-3.5xl leading-tight"
+                  class="font-semibold text-gray-900 text-2xl lg:text-3.5xl leading-tight"
                 >
                   $682
-                  <span class="text-lg font-medium text-gray-400 lg:text-xl">
+                  <span class="text-lg font-medium text-gray-600 lg:text-xl">
                     / mo
                   </span>
                 </h4>
-                <p class="text-sm leading-none text-gray-600">average price</p>
+                <p class="text-sm leading-none text-gray-700">average price</p>
               </div>
             </div>
             <div
-              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-gray-800 border border-gray-700 rounded-lg lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white rounded-lg shadow-inner lg:flex lg:px-8 lg:pt-7 lg:pb-8"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
-                  class="font-semibold tracking-wider text-gray-600 uppercase"
+                  class="font-semibold tracking-wider text-gray-700 uppercase"
                 >
                   Rivian
                 </h4>
-                <div class="w-full h-6 mt-1 bg-gray-700 rounded">
+                <div class="w-full h-6 mt-1 bg-yellow-200 rounded shadow-inner">
                   <span
                     class="inline-block h-6 bg-yellow-500 rounded"
                     style="width: 98.661088%"
@@ -283,26 +283,26 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="font-semibold text-white text-2xl lg:text-3.5xl leading-tight"
+                  class="font-semibold text-gray-900 text-2xl lg:text-3.5xl leading-tight"
                 >
                   $1,179
-                  <span class="text-lg font-medium text-gray-400 lg:text-xl">
+                  <span class="text-lg font-medium text-gray-600 lg:text-xl">
                     / mo
                   </span>
                 </h4>
-                <p class="text-sm leading-none text-gray-600">average price</p>
+                <p class="text-sm leading-none text-gray-700">average price</p>
               </div>
             </div>
             <div
-              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-gray-800 border border-gray-700 rounded-lg lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white rounded-lg shadow-inner lg:flex lg:px-8 lg:pt-7 lg:pb-8"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
-                  class="font-semibold tracking-wider text-gray-600 uppercase"
+                  class="font-semibold tracking-wider text-gray-700 uppercase"
                 >
                   Tesla
                 </h4>
-                <div class="w-full h-6 mt-1 bg-gray-700 rounded">
+                <div class="w-full h-6 mt-1 bg-red-200 rounded">
                   <span
                     class="inline-block w-full h-6 bg-red-500 rounded"
                   ></span>
@@ -310,14 +310,14 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="font-semibold text-white text-2xl lg:text-3.5xl leading-tight"
+                  class="font-semibold text-gray-900 text-2xl lg:text-3.5xl leading-tight"
                 >
                   $1,195
-                  <span class="text-lg font-medium text-gray-400 lg:text-xl">
+                  <span class="text-lg font-medium text-gray-600 lg:text-xl">
                     / mo
                   </span>
                 </h4>
-                <p class="text-sm leading-none text-gray-600">average price</p>
+                <p class="text-sm leading-none text-gray-700">average price</p>
               </div>
             </div>
           </div>
@@ -325,16 +325,16 @@
       </section>
       <section class="container mx-auto mt-10 px-6">
         <div
-          class="items-center justify-between px-6 py-10 bg-teal-900 rounded-lg sm:px-10 sm:py-12 md:px-12 md:py-16 lg:flex lg:px-18 lg:py-18"
+          class="items-center justify-between px-6 py-10 bg-teal-100 rounded-lg shadow-inner sm:px-10 sm:py-12 md:px-12 md:py-16 lg:flex lg:px-18 lg:py-18"
         >
           <div>
             <h3
-              class="text-3xl font-bold leading-tight text-teal-200 sm:text-4xl"
+              class="text-3xl font-bold leading-tight text-teal-900 sm:text-4xl"
             >
               Want news on our upcoming products?
             </h3>
             <p
-              class="mt-1 text-lg text-teal-400 sm:text-xl md:mt-2 lg:text-2xl xl:mt-0"
+              class="mt-1 text-lg text-teal-500 sm:text-xl md:mt-2 lg:text-2xl xl:mt-0"
             >
               Sign up to get updates.
             </p>
@@ -343,7 +343,7 @@
             class="flex-shrink-0 pt-6 md:flex md:items-center lg:block lg:max-w-xs lg:pt-0"
           >
             <div
-              class="flex items-center justify-between pt-1 pb-1 pl-4 pr-1 bg-teal-100 border-2 border-teal-900 rounded-lg md:max-w-xs lg:w-auto focus-within:bg-white focus-within:border-teal-300"
+              class="flex items-center justify-between pt-1 pb-1 pl-4 pr-1 bg-white border-2 border-teal-100 rounded-lg md:max-w-xs lg:w-auto focus-within:bg-white focus-within:border-teal-300"
             >
               <label for="newsletter-email" class="sr-only">
                 Enter your email
@@ -363,7 +363,7 @@
               </button>
             </div>
             <p
-              class="block mt-2 px-1 text-sm text-teal-400 md:mt-0 md:pl-4 md:pr-0 lg:mt-2 lg:px-2"
+              class="block mt-2 px-1 text-sm text-teal-500 md:mt-0 md:pl-4 md:pr-0 lg:mt-2 lg:px-2"
             >
               We care about the protection of your data. Read our
               <a class="font-medium text-teal-200 underline" href="#">
