@@ -2,7 +2,7 @@
   <div>
     <div
       class="bg-cover"
-      style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550)"
+      style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000)"
     >
       <div class="container mx-auto px-4 pt-6 pb-6">
         <nav class="flex items-center justify-between pb-6">
@@ -405,11 +405,11 @@
         </div>
       </section>
       <section
-        class="container mx-auto mt-10 px-6 pb-10 grid gap-5 grid-cols-2 grid-rows-2"
+        class="container mx-auto mt-10 px-6 pb-10 grid gap-5 grid-cols-1 md:grid-cols-2 md:grid-rows-2"
       >
         <div
           class="w-full h-full px-10 py-16 bg-center bg-cover rounded-lg col-span-1 row-span-1"
-          style="background-image: url(https://images.unsplash.com/photo-1568048478323-26b5c074ca70?exp=-15&sat=25)"
+          style="background-image: url(https://images.unsplash.com/photo-1568048478323-26b5c074ca70?exp=-15&sat=25&w=606)"
         >
           <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
             Hydroelectric Power
@@ -426,7 +426,7 @@
         </div>
         <div
           class="w-full h-full px-10 py-16 bg-center bg-cover rounded-lg col-span-1 row-span-1"
-          style="background-image: url(https://images.unsplash.com/photo-1580132749356-23736cd4809e?exp=-10)"
+          style="background-image: url(https://images.unsplash.com/photo-1580132749356-23736cd4809e?exp=-10&w=606)"
         >
           <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
             Nuclear Power
@@ -442,15 +442,9 @@
             and a good step on the road to safe, renewable energy.
           </p>
         </div>
-        <img
-          hidden
-          class="object-cover w-full h-full rounded-lg col-span-1 row-span-1"
-          src="img/american-public-power-association-dCx2xFuPWks-unsplash.jpg"
-          alt="A solar farm"
-        />
         <div
           class="w-full h-full px-10 py-16 bg-center bg-cover rounded-lg col-span-1 row-span-1"
-          style="background-image: url(https://images.unsplash.com/photo-1508790762848-8a3096277c8f?exp=-10)"
+          style="background-image: url(https://images.unsplash.com/photo-1508790762848-8a3096277c8f?exp=-10&w=606)"
         >
           <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
             Solar Power
@@ -500,25 +494,25 @@ export default {
       menuOpen: true,
       carModels: [
         {
-          name: "Hydrogen",
+          name: "Sieberi",
           monthlyPrice: 299,
           thumbnailUrl:
-            "https://cdn.choctawtsa.org/mint/photo-1494976388531-d1058494cdd8.jpg",
-          thumbnailAlt: "Placeholder"
+            "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+          thumbnailAlt: "Mint Sieberi"
         },
         {
-          name: "Helium",
+          name: "Viridis",
           monthlyPrice: 499,
           thumbnailUrl:
-            "https://cdn.choctawtsa.org/mint/photo-1532988633349-d3dfb28ee834.jpg",
-          thumbnailAlt: "Placeholder"
+            "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+          thumbnailAlt: "Mint Viridis"
         },
         {
-          name: "Lithium",
+          name: "Tauschii",
           monthlyPrice: 399,
           thumbnailUrl:
-            "https://cdn.choctawtsa.org/mint/photo-1541443131876-44b03de101c5.jpg",
-          thumbnailAlt: "Placeholder"
+            "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+          thumbnailAlt: "Mint Tauschii"
         }
       ]
     };
