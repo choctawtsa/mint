@@ -25,6 +25,10 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins"]
       },
+      scale: {
+        "99": ".99",
+        "101": "1.01"
+      },
       spacing: {
         "7": "1.75rem",
         "9": "2.25rem",
@@ -42,9 +46,19 @@ module.exports = {
       }
     }
   },
-  variants: {
-    backgroundColor: ["responsive", "hover", "focus", "focus-within"],
-    borderColor: ["responsive", "hover", "focus", "focus-within"]
-  },
+  variants: [
+    "responsive",
+    "group-hover",
+    "focus-within",
+    "first",
+    "last",
+    "odd",
+    "even",
+    "hover",
+    "focus",
+    "active",
+    "visited",
+    "disabled"
+  ],
   plugins: []
 };

@@ -17,13 +17,19 @@
               class="ml-6 font-medium text-gray-400 hover:text-white duration-100"
               href="#"
             >
-              News
+              Company
             </a>
             <a
               class="ml-6 font-medium text-gray-400 hover:text-white duration-100"
               href="#"
             >
               Impact
+            </a>
+            <a
+              class="ml-6 font-medium text-gray-400 hover:text-white duration-100"
+              href="#"
+            >
+              About
             </a>
           </div>
         </nav>
@@ -46,7 +52,7 @@
               href="#"
               class="block mt-2 py-1 text-sm font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 sm:text-base xl:px-6 xl:py-2 hover:border-gray-500 duration-100"
             >
-              Our carbon impact
+              Our company
             </a>
           </div>
         </div>
@@ -57,7 +63,7 @@
         class="mx-auto px-4 pt-4 lg:pt-0 xl:max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-12 transform lg:-translate-y-1/2"
       >
         <div
-          class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg h-30"
+          class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-xl h-30 transform hover:-translate-y-1 ease-out duration-100"
           v-for="(car, i) in carModels"
           :key="i"
         >
@@ -73,21 +79,23 @@
           </div>
         </div>
       </section>
-      <section class="container mx-auto mt-10 px-6 lg:mt-0">
-        <h2
-          class="text-3xl font-bold leading-tight text-gray-900 md:text-5xl text-center"
-        >
-          For the
-          <span class="text-teal-500">planet,</span>
-          not the profits.
-        </h2>
-        <p class="max-w-3xl mx-auto mt-2 text-gray-700 text-center">
-          Our business model doesn’t revolve around sales; our focus is on
-          creating a sustainable future and making this planet habitable for
-          generations to come.
-        </p>
+      <section class="mt-10 px-6 lg:mt-0">
+        <div class="container mx-auto">
+          <h2
+            class="text-3xl font-bold leading-tight text-gray-900 md:text-5xl text-center"
+          >
+            For the
+            <span class="text-teal-500">planet,</span>
+            not the profits.
+          </h2>
+          <p class="max-w-3xl mx-auto mt-2 text-gray-700 text-center">
+            Our business model doesn’t revolve around sales; our focus is on
+            creating a sustainable future and making this planet habitable for
+            generations to come.
+          </p>
+        </div>
         <div
-          class="mt-10 grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-2 sm:gap-10"
+          class="mt-6 md:mt-10 lg:px-4 xl:mx-auto xl:px-4 xl:max-w-screen-xl grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-2 sm:gap-10"
         >
           <div class="col-span-3 lg:col-span-1">
             <div class="max-w-lg">
@@ -102,7 +110,7 @@
                 come.
               </p>
             </div>
-            <div class="mt-7">
+            <div class="mt-4">
               <div class="flex">
                 <div class="flex-shrink-0">
                   <svg
@@ -135,7 +143,7 @@
                 </div>
                 <div class="ml-4">
                   <h2 class="text-lg font-semibold text-gray-900">
-                    Impulse-buying cheap
+                    Almost an impulse-buy
                   </h2>
                   <p class="mt-1 text-sm text-gray-700">
                     We know you put a lot of thought into the vehicle that
@@ -179,7 +187,7 @@
                 </div>
                 <div class="ml-4">
                   <h2 class="text-lg font-semibold text-gray-900">
-                    More reliable than the moon
+                    Industry-leading reliability
                   </h2>
                   <p class="mt-1 text-sm text-gray-700">
                     An unexpected issue with a vehicle can be the thing between
@@ -190,7 +198,6 @@
                 </div>
               </div>
             </div>
-
             <div class="mt-4">
               <div class="flex">
                 <div class="flex-shrink-0">
@@ -224,7 +231,7 @@
                 </div>
                 <div class="ml-4">
                   <h2 class="text-lg font-semibold text-gray-900">
-                    Gas is for chumps
+                    Electric efficiency
                   </h2>
                   <p class="mt-1 text-sm text-gray-700">
                     With any electric vehicle, you won't have to worry about
@@ -236,88 +243,112 @@
               </div>
             </div>
           </div>
-          <div class="mt-4 sm:mt-0 col-span-2 lg:col-span-1">
+          <div class="mt-8 sm:mt-0 col-span-2 lg:col-span-1">
             <div
-              class="items-center justify-between px-6 pt-5 pb-6 bg-white rounded-lg shadow-inner lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between px-6 pt-5 pb-6 bg-white border border-gray-300 rounded-lg cursor-default select-none lg:flex lg:px-8 lg:pt-7 lg:pb-8 hover:bg-teal-100 hover:border-teal-400 group duration-200 transform hover:scale-101"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
-                  class="font-semibold tracking-wider text-gray-700 uppercase"
+                  class="font-semibold tracking-wider text-gray-700 uppercase group-hover:text-teal-700 duration-200"
                 >
                   Mint
                 </h4>
-                <div class="w-full h-6 mt-1 bg-teal-100 rounded shadow-inner">
+                <div
+                  class="w-full h-6 mt-1 overflow-hidden bg-teal-100 border border-transparent rounded shadow-inner group-hover:bg-teal-100 group-hover:border-teal-400 duration-200"
+                >
                   <span
-                    class="inline-block h-6 bg-teal-500 rounded"
+                    class="inline-block h-full bg-teal-500 rounded-r duration-200 group-hover:rounded-none"
                     style="width: 57.07113%"
                   ></span>
                 </div>
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl group-hover:text-teal-900 duration-200"
                 >
                   $682
-                  <span class="text-lg font-medium text-gray-600 lg:text-xl">
+                  <span
+                    class="text-lg font-medium text-gray-600 lg:text-xl group-hover:text-teal-600 duration-200"
+                  >
                     / mo
                   </span>
                 </h4>
-                <p class="text-sm leading-none text-gray-700">average price</p>
+                <p
+                  class="text-sm leading-none text-gray-700 group-hover:text-teal-700 duration-200"
+                >
+                  average price
+                </p>
               </div>
             </div>
             <div
-              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white rounded-lg shadow-inner lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white border border-gray-300 rounded-lg cursor-default select-none lg:flex lg:px-8 lg:pt-7 lg:pb-8 hover:bg-yellow-100 hover:border-yellow-400 group duration-200 transform hover:scale-101"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
-                  class="font-semibold tracking-wider text-gray-700 uppercase"
+                  class="font-semibold tracking-wider text-gray-700 uppercase group-hover:text-yellow-700 duration-200"
                 >
                   Rivian
                 </h4>
-                <div class="w-full h-6 mt-1 bg-yellow-200 rounded shadow-inner">
+                <div
+                  class="w-full h-6 mt-1 overflow-hidden bg-yellow-100 border border-transparent rounded shadow-inner group-hover:bg-yellow-100 group-hover:border-yellow-400 duration-200"
+                >
                   <span
-                    class="inline-block h-6 bg-yellow-500 rounded"
+                    class="inline-block h-full bg-yellow-500 rounded-r group-hover:rounded-none duration-200"
                     style="width: 98.661088%"
                   ></span>
                 </div>
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl group-hover:text-yellow-900 duration-200"
                 >
                   $1,179
-                  <span class="text-lg font-medium text-gray-600 lg:text-xl">
+                  <span
+                    class="text-lg font-medium text-gray-600 lg:text-xl group-hover:text-yellow-600 duration-200"
+                  >
                     / mo
                   </span>
                 </h4>
-                <p class="text-sm leading-none text-gray-700">average price</p>
+                <p
+                  class="text-sm leading-none text-gray-700 group-hover:text-yellow-700 duration-200"
+                >
+                  average price
+                </p>
               </div>
             </div>
             <div
-              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white border border-gray-300 rounded-lg lg:flex lg:px-8 lg:pt-7 lg:pb-8"
+              class="items-center justify-between mt-6 px-6 pt-5 pb-6 bg-white border border-gray-300 rounded-lg cursor-default select-none lg:flex lg:px-8 lg:pt-7 lg:pb-8 hover:bg-red-100 hover:border-red-400 group duration-200 transform hover:scale-101"
             >
               <div class="lg:w-3/5 xl:w-2/3">
                 <h4
-                  class="font-semibold tracking-wider text-gray-700 uppercase"
+                  class="font-semibold tracking-wider text-gray-700 uppercase group-hover:text-red-700 duration-200"
                 >
                   Tesla
                 </h4>
-                <div class="w-full h-6 mt-1 bg-red-200 rounded">
+                <div
+                  class="w-full h-6 mt-1 overflow-hidden bg-red-100 border border-transparent rounded shadow-inner group-hover:bg-red-100 group-hover:border-red-400 duration-200"
+                >
                   <span
-                    class="inline-block w-full h-6 bg-red-500 rounded"
+                    class="inline-block w-full h-full bg-red-500 rounded-r duration-200 group-hover:rounded-none"
                   ></span>
                 </div>
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl group-hover:text-red-900 duration-200"
                 >
                   $1,195
-                  <span class="text-lg font-medium text-gray-600 lg:text-xl">
+                  <span
+                    class="text-lg font-medium text-gray-600 lg:text-xl group-hover:text-red-600 duration-200"
+                  >
                     / mo
                   </span>
                 </h4>
-                <p class="text-sm leading-none text-gray-700">average price</p>
+                <p
+                  class="text-sm leading-none text-gray-700 group-hover:text-red-700 duration-200"
+                >
+                  average price
+                </p>
               </div>
             </div>
           </div>
@@ -366,7 +397,7 @@
               class="block mt-2 px-1 text-sm text-teal-500 md:mt-0 md:pl-4 md:pr-0 lg:mt-2 lg:px-2"
             >
               We care about the protection of your data. Read our
-              <a class="font-medium text-teal-200 underline" href="#">
+              <a class="font-medium text-teal-600 underline" href="#">
                 Privacy Policy.
               </a>
             </p>
@@ -466,6 +497,7 @@ export default {
   },
   data() {
     return {
+      menuOpen: true,
       carModels: [
         {
           name: "Hydrogen",
