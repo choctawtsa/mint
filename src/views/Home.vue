@@ -257,7 +257,7 @@
                   class="w-full h-6 mt-1 overflow-hidden bg-teal-100 border border-transparent rounded shadow-inner group-hover:bg-teal-100 group-hover:border-teal-400 duration-200"
                 >
                   <span
-                    class="inline-block h-full bg-teal-500 rounded-r duration-200 group-hover:rounded-none"
+                    class="inline-block h-full bg-teal-500 rounded-r duration-200 group-hover:rounded-none group-hover:bg-teal-400"
                     style="width: 57.07113%"
                   ></span>
                 </div>
@@ -293,7 +293,7 @@
                   class="w-full h-6 mt-1 overflow-hidden bg-yellow-100 border border-transparent rounded shadow-inner group-hover:bg-yellow-100 group-hover:border-yellow-400 duration-200"
                 >
                   <span
-                    class="inline-block h-full bg-yellow-500 rounded-r group-hover:rounded-none duration-200"
+                    class="inline-block h-full bg-yellow-500 rounded-r group-hover:rounded-none duration-200 group-hover:bg-yellow-400"
                     style="width: 98.661088%"
                   ></span>
                 </div>
@@ -329,7 +329,7 @@
                   class="w-full h-6 mt-1 overflow-hidden bg-red-100 border border-transparent rounded shadow-inner group-hover:bg-red-100 group-hover:border-red-400 duration-200"
                 >
                   <span
-                    class="inline-block w-full h-full bg-red-500 rounded-r duration-200 group-hover:rounded-none"
+                    class="inline-block w-full h-full bg-red-500 rounded-r duration-200 group-hover:rounded-none group-hover:bg-red-400"
                   ></span>
                 </div>
               </div>
