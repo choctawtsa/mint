@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      class="bg-cover"
+      class="bg-center bg-cover"
       style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000)"
     >
       <div class="container mx-auto px-4 pt-6 pb-6">
@@ -11,26 +11,92 @@
             src="img/all-white.svg"
             alt="Mint Electric logo"
           />
-          <div class="hidden sm:block">
-            <a class="font-semibold text-white" href="#">Home</a>
-            <a
-              class="ml-6 font-medium text-gray-400 hover:text-white duration-100"
-              href="#"
+          <div class="sm:hidden">
+            <button
+              @click="menuOpen = !menuOpen"
+              class="flex items-center p-3 focus:text-white"
+            >
+              <svg
+                class="h-6 text-gray-300 fill-current"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  v-if="menuOpen"
+                  fill-rule="evenodd"
+                  d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+                />
+                <path
+                  v-if="!menuOpen"
+                  fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </button>
+            <div
+              :class="menuOpen ? 'h-auto py-2 shadow-lg' : 'h-0'"
+              class="absolute flex flex-col overflow-y-hidden bg-white rounded-lg -ml-30 duration-200 transition-all ease-out"
+            >
+              <router-link
+                to="/"
+                class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
+                exact-active-class="font-medium text-gray-900 bg-gray-200"
+              >
+                Home
+              </router-link>
+              <router-link
+                to="/company"
+                class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
+                exact-active-class="font-medium text-gray-900 bg-gray-200"
+              >
+                Company
+              </router-link>
+              <router-link
+                to="/impact"
+                class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
+                exact-active-class="font-medium text-gray-900 bg-gray-200"
+              >
+                Impact
+              </router-link>
+              <router-link
+                to="/about"
+                class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
+                exact-active-class="font-medium text-gray-900 bg-gray-200"
+              >
+                About
+              </router-link>
+            </div>
+          </div>
+          <div class="hidden font-medium text-gray-400 sm:block">
+            <router-link
+              to="/"
+              class="duration-100"
+              exact-active-class="font-semibold text-white"
+            >
+              Home
+            </router-link>
+            <router-link
+              to="/company"
+              class="ml-6 duration-100"
+              exact-active-class="font-semibold text-white"
             >
               Company
-            </a>
-            <a
-              class="ml-6 font-medium text-gray-400 hover:text-white duration-100"
-              href="#"
+            </router-link>
+            <router-link
+              to="/impact"
+              class="ml-6 duration-100"
+              exact-active-class="font-semibold text-white"
             >
               Impact
-            </a>
-            <a
-              class="ml-6 font-medium text-gray-400 hover:text-white duration-100"
-              href="#"
+            </router-link>
+            <router-link
+              to="/about"
+              class="ml-6 duration-100"
+              exact-active-class="font-semibold text-white"
             >
               About
-            </a>
+            </router-link>
           </div>
         </nav>
         <div class="pt-12 pb-16 sm:pt-16 sm:pb-24 xl:pt-24 xl:pb-48 lg:pb-36">
@@ -44,16 +110,16 @@
           <div class="w-56 mx-auto mt-8 xs:w-auto xl:mt-12 text-center">
             <a
               href="#"
-              class="block py-1 text-sm font-medium text-gray-900 bg-white border-2 border-transparent rounded-lg xs:inline-block xs:px-4 sm:text-base xl:px-6 xl:py-2 hover:text-teal-900 hover:bg-teal-100 duration-100"
+              class="block py-1 text-sm font-medium text-gray-900 bg-white border-2 border-transparent rounded-lg xs:inline-block xs:px-4 xl:px-6 xl:py-2 xl:text-base hover:text-teal-900 hover:bg-teal-100 duration-100"
             >
               Browse models
             </a>
-            <a
-              href="#"
-              class="block mt-2 py-1 text-sm font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 sm:text-base xl:px-6 xl:py-2 hover:border-gray-500 duration-100"
+            <router-link
+              to="/company"
+              class="block mt-2 py-1 text-sm font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 xl:px-6 xl:py-2 xl:text-base hover:border-gray-500 duration-100"
             >
               Our company
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
