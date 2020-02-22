@@ -867,8 +867,7 @@ export default {
   },
   data() {
     return {
-      menuOpen: true,
-      dixieHover: false,
+      menuOpen: false,
       carModels: [
         {
           name: "Sieberi",
