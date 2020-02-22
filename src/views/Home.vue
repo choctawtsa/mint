@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div
+    <header
       class="bg-cover"
       style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000)"
     >
@@ -37,7 +37,7 @@
           <h1
             class="mx-auto text-3xl font-bold leading-tight tracking-tight text-white xs:text-5xl sm:text-6xl xl:max-w-6xl xl:text-7xl text-center"
           >
-            Building a more sustainable future,
+            Building a more sustainable future
             <br class="hidden lg:inline" />
             one vehicle at a time.
           </h1>
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </header>
     <main>
       <section
         class="mx-auto px-4 pt-4 lg:pt-0 xl:max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-12 transform lg:-translate-y-1/2"
@@ -404,17 +404,213 @@
           </div>
         </div>
       </section>
+      <section class="container mx-auto mt-10 px-6">
+        <div class="items-center justify-between pb-4 sm:flex">
+          <h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
+            Find a dealer near you
+          </h2>
+          <!-- @click="flashQuestion()" -->
+          <a
+            href="#faq"
+            class="font-medium text-teal-500 sm:text-lg text-right"
+          >
+            Why can't I buy online?
+          </a>
+        </div>
+        <div
+          class="overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
+        >
+          <div
+            class="z-10 px-8 py-6 sm:z-auto sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
+          >
+            <div class="xs:flex xs:items-baseline">
+              <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
+                Dixie Motors
+              </h3>
+              <p class="text-gray-700">
+                4 miles away
+              </p>
+            </div>
+            <div class="mt-2 xs:flex xs:items-center xs:mt-1">
+              <div class="flex items-center">
+                <svg
+                  class="h-4 text-gray-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 10a10 10 0 1120 0 10 10 0 01-20 0zm10 8a8 8 0 110-16 8 8 0 010 16zm4-9h-3V6a1 1 0 10-2 0v4c0 .6.4 1 1 1h4a1 1 0 100-2z"
+                  />
+                </svg>
+                <p class="ml-2 text-gray-600">Open 9am - 5pm</p>
+              </div>
+              <div class="flex items-center xs:ml-6">
+                <svg
+                  class="h-4 text-gray-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 8a8 8 0 018-8 8 8 0 018 8c0 5.4-7 11.5-7.3 11.8a1 1 0 01-1.4 0C7 19.5 0 13.4 0 7.9zm8 9.6c-1.7-1.5-6-6-6-9.7A6 6 0 018 2a6 6 0 016 6c0 3.6-4.3 8-6 9.6zM4.5 7.5a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zm2 0a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+                  />
+                </svg>
+                <p class="ml-2 text-gray-600">Nashville</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover sm:static sm:w-auto sm:h-auto sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-1.png)"
+          >
+            <svg
+              class="h-6 text-teal-500 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 7 14"
+            >
+              <path
+                d="M1 14a1 1 0 01-.8-1.6L4.7 7 .4 1.6A1 1 0 012 .4l4.8 6c.3.3.3.9 0 1.2l-5 6a1 1 0 01-.8.4z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="mt-3 overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
+        >
+          <div
+            class="z-10 px-8 py-6 sm:z-auto sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
+          >
+            <div class="xs:flex xs:items-baseline">
+              <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
+                Opry Autos
+              </h3>
+              <p class="text-gray-700">
+                7 miles away
+              </p>
+            </div>
+            <div class="mt-2 xs:flex xs:items-center xs:mt-1">
+              <div class="flex items-center">
+                <svg
+                  class="h-4 text-gray-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 10a10 10 0 1120 0 10 10 0 01-20 0zm10 8a8 8 0 110-16 8 8 0 010 16zm4-9h-3V6a1 1 0 10-2 0v4c0 .6.4 1 1 1h4a1 1 0 100-2z"
+                  />
+                </svg>
+                <p class="ml-2 text-gray-600">Open 10am - 7pm</p>
+              </div>
+              <div class="flex items-center xs:ml-6">
+                <svg
+                  class="h-4 text-gray-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 8a8 8 0 018-8 8 8 0 018 8c0 5.4-7 11.5-7.3 11.8a1 1 0 01-1.4 0C7 19.5 0 13.4 0 7.9zm8 9.6c-1.7-1.5-6-6-6-9.7A6 6 0 018 2a6 6 0 016 6c0 3.6-4.3 8-6 9.6zM4.5 7.5a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zm2 0a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+                  />
+                </svg>
+                <p class="ml-2 text-gray-600">Nashville</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover sm:static sm:w-auto sm:h-auto sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-2.png)"
+          >
+            <svg
+              class="h-6 text-teal-500 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 7 14"
+            >
+              <path
+                d="M1 14a1 1 0 01-.8-1.6L4.7 7 .4 1.6A1 1 0 012 .4l4.8 6c.3.3.3.9 0 1.2l-5 6a1 1 0 01-.8.4z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="mt-3 overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
+        >
+          <div
+            class="z-10 px-8 py-6 sm:z-auto sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
+          >
+            <div class="xs:flex xs:items-baseline">
+              <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
+                Nashville Auto Group
+              </h3>
+              <p class="text-gray-700">
+                14 miles away
+              </p>
+            </div>
+            <div class="mt-2 xs:flex xs:items-center xs:mt-1">
+              <div class="flex items-center">
+                <svg
+                  class="h-4 text-gray-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 10a10 10 0 1120 0 10 10 0 01-20 0zm10 8a8 8 0 110-16 8 8 0 010 16zm4-9h-3V6a1 1 0 10-2 0v4c0 .6.4 1 1 1h4a1 1 0 100-2z"
+                  />
+                </svg>
+                <p class="ml-2 text-gray-600">Open 9am - 5pm</p>
+              </div>
+              <div class="flex items-center xs:ml-6">
+                <svg
+                  class="h-4 text-gray-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 8a8 8 0 018-8 8 8 0 018 8c0 5.4-7 11.5-7.3 11.8a1 1 0 01-1.4 0C7 19.5 0 13.4 0 7.9zm8 9.6c-1.7-1.5-6-6-6-9.7A6 6 0 018 2a6 6 0 016 6c0 3.6-4.3 8-6 9.6zM4.5 7.5a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zm2 0a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+                  />
+                </svg>
+                <p class="ml-2 text-gray-600">Nashville</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover sm:static sm:w-auto sm:h-auto sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-3.png)"
+          >
+            <svg
+              class="h-6 text-teal-500 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 7 14"
+            >
+              <path
+                d="M1 14a1 1 0 01-.8-1.6L4.7 7 .4 1.6A1 1 0 012 .4l4.8 6c.3.3.3.9 0 1.2l-5 6a1 1 0 01-.8.4z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
       <section
-        class="container mx-auto mt-10 px-6 pb-10 grid gap-5 grid-cols-1 md:grid-cols-2 md:grid-rows-2"
+        class="container mx-auto mt-10 px-6 pb-10 grid gap-5 grid-cols-1 md:grid-cols-2"
       >
         <div
-          class="w-full h-full px-10 py-16 bg-center bg-cover rounded-lg col-span-1 row-span-1"
+          class="w-full h-full px-6 py-10 bg-center bg-cover rounded-lg lg:px-10 lg:py-16 col-span-1"
           style="background-image: url(https://images.unsplash.com/photo-1568048478323-26b5c074ca70?exp=-15&sat=25&w=606)"
         >
-          <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
+          <p
+            class="font-medium leading-tight tracking-wider text-gray-500 uppercase lg:text-lg"
+          >
             Hydroelectric Power
           </p>
-          <h2 class="text-5xl font-bold leading-tight text-white">
+          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
             Go with the flow
           </h2>
           <p class="mt-4 text-gray-400">
@@ -425,47 +621,161 @@
           </p>
         </div>
         <div
-          class="w-full h-full px-10 py-16 bg-center bg-cover rounded-lg col-span-1 row-span-1"
+          class="w-full h-full px-6 py-10 bg-center bg-cover rounded-lg lg:px-10 lg:py-16 col-span-1"
           style="background-image: url(https://images.unsplash.com/photo-1580132749356-23736cd4809e?exp=-10&w=606)"
         >
-          <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
+          <p
+            class="font-medium leading-tight tracking-wider text-gray-500 uppercase lg:text-lg"
+          >
             Nuclear Power
           </p>
-          <h2 class="text-5xl font-bold leading-tight text-white">
-            n&uuml;k
+          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+            The potential of a particle
           </h2>
           <p class="mt-4 text-gray-400">
-            Some of our plants also operate in cities with large amounts of
-            nuclear power. While nuclear certainly isn't the
+            While certainly not being the
             <span class="italic">safest</span>
-            energy source in the world, it's certainly cleaner than fossil fuels
-            and a good step on the road to safe, renewable energy.
+            source of energy around, nuclear energy has massive potential. We
+            don't envision nuclear fission being around for the long-term, but
+            it's a moderately clean transitionary source of energy as we move on
+            to better things like nuclear and as we build up our other renewable
+            sources.
           </p>
         </div>
         <div
-          class="w-full h-full px-10 py-16 bg-center bg-cover rounded-lg col-span-1 row-span-1"
+          class="w-full h-full px-6 py-10 bg-center bg-cover rounded-lg lg:px-10 lg:py-16 col-span-1"
           style="background-image: url(https://images.unsplash.com/photo-1508790762848-8a3096277c8f?exp=-10&w=606)"
         >
-          <p class="text-lg font-medium tracking-wider text-gray-500 uppercase">
+          <p
+            class="font-medium leading-tight tracking-wider text-gray-500 uppercase lg:text-lg"
+          >
             Solar Power
           </p>
-          <h2 class="text-5xl font-bold text-white">
-            Eat the sun
+          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+            Shine bright
           </h2>
           <p class="mt-4 text-gray-400">
-            Our offices in Nevada are powered completely by a company-owned
-            solar farm. This state-of-the-art facility manages our worldwide
-            production and delivery procedures and is the main corporate entity
-            in contact with dealerships.
+            For more arid areas that receive a lot of sun, solar energy is a
+            fantastic choice. Desert areas in states like Nevada are prime
+            choices to build solar farms, like we did. Our Nevada offices are
+            powered completely by solar energy.
           </p>
         </div>
-        <img
-          class="object-cover w-full h-full rounded-lg col-span-1 row-span-1"
-          src="img/science-in-hd-b_HIKRj7EcY-unsplash.jpg"
-          alt="A nuclear power plant"
-        />
+        <div
+          class="w-full h-full px-6 py-10 bg-center bg-cover rounded-lg lg:px-10 lg:py-16 col-span-1"
+          style="background-image: url(https://images.unsplash.com/photo-1573486145949-182147241fa6?exp=-10&w=606)"
+        >
+          <p
+            class="font-medium leading-tight tracking-wider text-gray-500 uppercase lg:text-lg"
+          >
+            Wind Power
+          </p>
+          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+            More than a passing breeze
+          </h2>
+          <p class="mt-4 text-gray-400">
+            Wind is set to be the prime source of renewable energy across the
+            Great Plains. Our production centers and headquarters in Oklahoma
+            are primarily powered by this renewable source, and we're working to
+            expand it across the state and surrounding areas.
+          </p>
+        </div>
+      </section>
+      <section id="faq" class="bg-teal-500">
+        <div class="container mx-auto px-6 pt-10 pb-16">
+          <h2
+            class="pb-6 text-4xl font-bold leading-tight text-white md:text-5xl"
+          >
+            Frequently asked questions
+          </h2>
+          <div
+            class="pt-8 border-t-2 border-teal-400 grid md:grid-cols-2 gap-6"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-teal-100">
+                Can I buy online?
+              </h3>
+              <p class="mt-1 text-teal-200">
+                Unfortunately, we don't take online orders at this time. We're
+                primarily focused on scaling up our production to meet the high
+                demand already presented by our sales at our partner
+                dealerships. Once we have the capacity to meet the demand, we
+                will be offering online orders.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-teal-100">
+                Can I buy a vehicle from outside of the US?
+              </h3>
+              <p class="mt-1 text-teal-200">
+                Not at this time, but we are working on making this a
+                possibility. We're still working to meet the demand of US
+                consumers, but we're working out deals with Canadian and
+                Australian dealerships in the meantime. Once we're ready for
+                online orders, most countries will be able to purchase a vehicle
+                online just like our US consumers.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-teal-100">
+                Are your products made in the US?
+              </h3>
+              <p class="mt-1 text-teal-200">
+                We're very proud to be able to answer "yes" to this question. We
+                employ 3,400 people in total across the United States in our
+                production lines and offices.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-teal-100">
+                How do I charge my Mint vehicle?
+              </h3>
+              <p class="mt-1 text-teal-200">
+                Any purchase of a Mint vehicle comes with a charger for you to
+                keep at your house. We have also made our vehicles compatible
+                with Tesla SuperChargers and are building our own network of
+                chargers across the United States for on-the-road charging.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-teal-100">
+                How long is the range for my vehicle?
+              </h3>
+              <p class="mt-1 text-teal-200">
+                Each vehicle has a different range and recharging time. You can
+                find these listed on each product's spec page.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <footer class="bg-teal-500">
+      <div class="container mx-auto px-6">
+        <div
+          class="py-8 border-t-2 border-teal-400 md:flex md:items-center md:justify-between text-center"
+        >
+          <div
+            class="flex flex-col items-center justify-center sm:flex-row md:justify-start"
+          >
+            <img
+              src="https://cdn.choctawtsa.org/mint/teal-background.svg"
+              class="h-6"
+              alt="Mint logo"
+            />
+            <p class="mt-2 text-teal-200 sm:mt-0 sm:ml-6">
+              &copy; Copyright 2020 Mint Electric
+            </p>
+          </div>
+          <div class="hidden mt-4 sm:block md:mt-auto">
+            <a href="#" class="text-teal-200">Home</a>
+            <a href="#" class="ml-2 text-teal-200">Company</a>
+            <a href="#" class="ml-2 text-teal-200">Impact</a>
+            <a href="#" class="ml-2 text-teal-200">About</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -492,6 +802,7 @@ export default {
   data() {
     return {
       menuOpen: true,
+      dixieHover: false,
       carModels: [
         {
           name: "Sieberi",
@@ -517,5 +828,13 @@ export default {
       ]
     };
   }
+  // methods: {
+  //   flashQuestion() {
+  //     this.isFlashing = true;
+  //     setTimeout(function() {
+  //       this.isFlashing = false;
+  //     }, 1000);
+  //   }
+  // }
 };
 </script>
