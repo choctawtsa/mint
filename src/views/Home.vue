@@ -463,7 +463,7 @@
             </div>
           </div>
           <div
-            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover sm:static sm:w-auto sm:h-auto sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
             style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-1.png)"
           >
             <svg
@@ -523,7 +523,7 @@
             </div>
           </div>
           <div
-            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover sm:static sm:w-auto sm:h-auto sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
             style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-2.png)"
           >
             <svg
@@ -583,7 +583,7 @@
             </div>
           </div>
           <div
-            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover sm:static sm:w-auto sm:h-auto sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
             style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-3.png)"
           >
             <svg
