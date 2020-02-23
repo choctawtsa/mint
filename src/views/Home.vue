@@ -835,7 +835,7 @@
               alt="Mint logo"
             />
             <p class="mt-2 text-teal-200 sm:mt-0 sm:ml-6">
-              &copy; Copyright 2020 Mint Electric
+              &copy; 2020 Mint Electric, Inc. All rights reserved.
             </p>
           </div>
           <div class="hidden mt-4 sm:block md:mt-auto">
