@@ -4,10 +4,10 @@
       class="bg-center bg-cover"
       style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000)"
     >
-      <div class="container mx-auto px-4 pt-6 pb-6">
+      <div class="container mx-auto px-4 pt-4 pb-6 sm:pt-6">
         <nav class="flex items-center justify-between pb-6">
           <img
-            class="w-16 xs:w-20 sm:w-24"
+            class="w-20 sm:w-24"
             src="img/all-white.svg"
             alt="Mint Electric logo"
           />
@@ -139,7 +139,9 @@
             class="flex-shrink-0 object-cover h-30 w-30"
           />
           <div class="px-5 py-4">
-            <h4 class="text-2xl font-semibold text-gray-900">{{ car.name }}</h4>
+            <h4 class="text-xl font-semibold text-gray-900 sm:text-2xl">
+              {{ car.name }}
+            </h4>
             <p class="text-sm text-gray-700">From ${{ car.monthlyPrice }}/mo</p>
             <a href="#" class="block mt-2 text-teal-500">Explore</a>
           </div>
@@ -483,11 +485,12 @@
             Why can't I buy online?
           </a>
         </div>
-        <div
+        <router-link
+          to="/dealerships/dixie-motors"
           class="overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
         >
           <div
-            class="z-10 px-8 py-6 sm:z-auto sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
+            class="z-10 px-6 py-5 sm:z-auto sm:px-8 sm:py-6 sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
           >
             <div class="xs:flex xs:items-baseline">
               <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
@@ -542,12 +545,13 @@
               />
             </svg>
           </div>
-        </div>
-        <div
+        </router-link>
+        <router-link
+          to="/dealerships/opry-autos"
           class="mt-3 overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
         >
           <div
-            class="z-10 px-8 py-6 sm:z-auto sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
+            class="z-10 px-6 py-5 sm:z-auto sm:px-8 sm:py-6 sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
           >
             <div class="xs:flex xs:items-baseline">
               <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
@@ -602,12 +606,13 @@
               />
             </svg>
           </div>
-        </div>
-        <div
+        </router-link>
+        <router-link
+          to="/dealerships/nashville-auto-group"
           class="mt-3 overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
         >
           <div
-            class="z-10 px-8 py-6 sm:z-auto sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
+            class="z-10 px-6 py-5 sm:z-auto sm:px-8 sm:py-6 sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
           >
             <div class="xs:flex xs:items-baseline">
               <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
@@ -662,7 +667,7 @@
               />
             </svg>
           </div>
-        </div>
+        </router-link>
       </section>
       <section
         class="container mx-auto mt-10 px-6 pb-10 grid gap-5 grid-cols-1 md:grid-cols-2"
@@ -871,21 +876,21 @@ export default {
       carModels: [
         {
           name: "Sieberi",
-          monthlyPrice: 299,
+          monthlyPrice: 499,
           thumbnailUrl:
             "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Sieberi"
         },
         {
           name: "Viridis",
-          monthlyPrice: 499,
+          monthlyPrice: 899,
           thumbnailUrl:
             "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Viridis"
         },
         {
           name: "Tauschii",
-          monthlyPrice: 399,
+          monthlyPrice: 699,
           thumbnailUrl:
             "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Tauschii"
