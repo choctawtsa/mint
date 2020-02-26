@@ -16,4 +16,5 @@ This list is for reference of the team only; a full, proper list will be posted 
 - PostCSS
 - PurgeCSS
 - Unsplash
-- Font Awesome
+- Eva Icons
+- Heroicons

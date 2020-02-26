@@ -4,33 +4,40 @@
       class="bg-center bg-cover"
       style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000)"
     >
-      <div class="container mx-auto px-4 pt-4 pb-6 sm:pt-6">
+      <div class="container mx-auto px-4 pt-4 xs:pb-6 sm:pt-6">
         <nav class="flex items-center justify-between pb-6">
-          <img
-            class="w-20 sm:w-24"
-            src="img/all-white.svg"
-            alt="Mint Electric logo"
-          />
+          <router-link to="/">
+            <img
+              class="w-20 sm:w-24"
+              src="img/all-white.svg"
+              alt="Mint Electric logo"
+            />
+          </router-link>
+
           <div class="sm:hidden">
             <button
               @click="menuOpen = !menuOpen"
-              class="flex items-center p-3 focus:text-white"
+              class="flex items-center p-3 text-gray-400 hover:text-white focus:text-white focus:outline-none"
             >
               <svg
-                class="h-6 text-gray-300 fill-current"
-                viewBox="0 0 24 24"
+                class="h-6"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
                 <path
-                  v-if="menuOpen"
-                  fill-rule="evenodd"
-                  d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+                  v-show="!menuOpen"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 8h16M4 16h16"
                 />
                 <path
-                  v-if="!menuOpen"
-                  fill-rule="evenodd"
-                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                  v-show="menuOpen"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
             </button>
@@ -99,7 +106,9 @@
             </router-link>
           </div>
         </nav>
-        <div class="pt-12 pb-16 sm:pt-16 sm:pb-24 xl:pt-24 xl:pb-48 lg:pb-36">
+        <div
+          class="pt-12 pb-6 xs:pb-16 sm:pt-16 sm:pb-24 xl:pt-24 xl:pb-48 lg:pb-36"
+        >
           <h1
             class="mx-auto text-3xl font-bold leading-tight tracking-tight text-white xs:text-5xl sm:text-6xl xl:max-w-6xl xl:text-7xl text-center"
           >
@@ -107,19 +116,19 @@
             <br class="hidden lg:inline" />
             one vehicle at a time.
           </h1>
-          <div class="w-56 mx-auto mt-8 xs:w-auto xl:mt-12 text-center">
+          <div class="mx-auto xs:w-auto xs:pt-0 xl:mt-12 mt-18 text-center">
             <a
-              href="#"
-              class="block py-1 text-sm font-medium text-gray-900 bg-white border-2 border-transparent rounded-lg xs:inline-block xs:px-4 xl:px-6 xl:py-2 xl:text-base hover:text-teal-900 hover:bg-teal-100 duration-100"
+              href="#locations"
+              class="block py-2 font-medium text-gray-900 bg-white border-2 border-transparent rounded-lg xs:inline-block xs:px-4 xl:px-6 xl:py-2 xl:text-base hover:text-teal-900 hover:bg-teal-100 duration-100"
             >
-              Browse models
+              Find a location
             </a>
-            <router-link
-              to="/company"
-              class="block mt-2 py-1 text-sm font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 xl:px-6 xl:py-2 xl:text-base hover:border-gray-500 duration-100"
+            <a
+              href="#faq"
+              class="block mt-2 py-2 font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 xl:px-6 xl:py-2 xl:text-base hover:border-gray-500 duration-100"
             >
-              Our company
-            </router-link>
+              Have a question?
+            </a>
           </div>
         </div>
       </div>
@@ -181,33 +190,21 @@
             <div class="mt-4">
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.1511 23.9999C12.7831 23.9999 12.4311 23.8479 12.1791 23.5799L5.69509 16.6746C5.18976 16.1386 5.21776 15.2946 5.75376 14.7906C6.29109 14.2866 7.13509 14.3133 7.63776 14.8493L13.1378 20.7039L24.3484 8.43461C24.8471 7.88928 25.6898 7.85328 26.2338 8.34928C26.7764 8.84528 26.8138 9.68928 26.3178 10.2319L14.1351 23.5653C13.8858 23.8399 13.5311 23.9973 13.1604 23.9999H13.1511Z"
-                      fill="#38B2AC"
-                    />
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskUnits="userSpaceOnUse"
-                      x="5"
-                      y="8"
-                      width="22"
-                      height="16"
+                  <div class="p-1 bg-teal-500 rounded">
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
                       <path
-                        d="M13.1511 23.9999C12.7831 23.9999 12.4311 23.8479 12.1791 23.5799L5.69509 16.6746C5.18976 16.1386 5.21776 15.2946 5.75376 14.7906C6.29109 14.2866 7.13509 14.3133 7.63776 14.8493L13.1378 20.7039L24.3484 8.43461C24.8471 7.88928 25.6898 7.85328 26.2338 8.34928C26.7764 8.84528 26.8138 9.68928 26.3178 10.2319L14.1351 23.5653C13.8858 23.8399 13.5311 23.9973 13.1604 23.9999H13.1511Z"
-                        fill="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
                       />
-                    </mask>
-                    <g mask="url(#mask0)"></g>
-                  </svg>
+                    </svg>
+                  </div>
                 </div>
                 <div class="ml-4">
                   <h2 class="text-lg font-semibold text-gray-900">
@@ -225,33 +222,21 @@
             <div class="mt-4">
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.1511 23.9999C12.7831 23.9999 12.4311 23.8479 12.1791 23.5799L5.69509 16.6746C5.18976 16.1386 5.21776 15.2946 5.75376 14.7906C6.29109 14.2866 7.13509 14.3133 7.63776 14.8493L13.1378 20.7039L24.3484 8.43461C24.8471 7.88928 25.6898 7.85328 26.2338 8.34928C26.7764 8.84528 26.8138 9.68928 26.3178 10.2319L14.1351 23.5653C13.8858 23.8399 13.5311 23.9973 13.1604 23.9999H13.1511Z"
-                      fill="#38B2AC"
-                    />
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskUnits="userSpaceOnUse"
-                      x="5"
-                      y="8"
-                      width="22"
-                      height="16"
+                  <div class="p-1 bg-teal-500 rounded">
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
                       <path
-                        d="M13.1511 23.9999C12.7831 23.9999 12.4311 23.8479 12.1791 23.5799L5.69509 16.6746C5.18976 16.1386 5.21776 15.2946 5.75376 14.7906C6.29109 14.2866 7.13509 14.3133 7.63776 14.8493L13.1378 20.7039L24.3484 8.43461C24.8471 7.88928 25.6898 7.85328 26.2338 8.34928C26.7764 8.84528 26.8138 9.68928 26.3178 10.2319L14.1351 23.5653C13.8858 23.8399 13.5311 23.9973 13.1604 23.9999H13.1511Z"
-                        fill="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
                       />
-                    </mask>
-                    <g mask="url(#mask0)"></g>
-                  </svg>
+                    </svg>
+                  </div>
                 </div>
                 <div class="ml-4">
                   <h2 class="text-lg font-semibold text-gray-900">
@@ -269,33 +254,21 @@
             <div class="mt-4">
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.1511 23.9999C12.7831 23.9999 12.4311 23.8479 12.1791 23.5799L5.69509 16.6746C5.18976 16.1386 5.21776 15.2946 5.75376 14.7906C6.29109 14.2866 7.13509 14.3133 7.63776 14.8493L13.1378 20.7039L24.3484 8.43461C24.8471 7.88928 25.6898 7.85328 26.2338 8.34928C26.7764 8.84528 26.8138 9.68928 26.3178 10.2319L14.1351 23.5653C13.8858 23.8399 13.5311 23.9973 13.1604 23.9999H13.1511Z"
-                      fill="#38B2AC"
-                    />
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskUnits="userSpaceOnUse"
-                      x="5"
-                      y="8"
-                      width="22"
-                      height="16"
+                  <div class="p-1 bg-teal-500 rounded">
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
                       <path
-                        d="M13.1511 23.9999C12.7831 23.9999 12.4311 23.8479 12.1791 23.5799L5.69509 16.6746C5.18976 16.1386 5.21776 15.2946 5.75376 14.7906C6.29109 14.2866 7.13509 14.3133 7.63776 14.8493L13.1378 20.7039L24.3484 8.43461C24.8471 7.88928 25.6898 7.85328 26.2338 8.34928C26.7764 8.84528 26.8138 9.68928 26.3178 10.2319L14.1351 23.5653C13.8858 23.8399 13.5311 23.9973 13.1604 23.9999H13.1511Z"
-                        fill="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
                       />
-                    </mask>
-                    <g mask="url(#mask0)"></g>
-                  </svg>
+                    </svg>
+                  </div>
                 </div>
                 <div class="ml-4">
                   <h2 class="text-lg font-semibold text-gray-900">
@@ -472,7 +445,7 @@
           </div>
         </div>
       </section>
-      <section class="container mx-auto mt-10 px-6">
+      <section id="locations" class="container mx-auto mt-6 px-6 pt-4">
         <div class="items-center justify-between pb-4 sm:flex">
           <h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
             Find a dealer near you
@@ -503,28 +476,38 @@
             <div class="mt-2 xs:flex xs:items-center xs:mt-1">
               <div class="flex items-center">
                 <svg
-                  class="h-4 text-gray-500 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
+                  class="h-5 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 10a10 10 0 1120 0 10 10 0 01-20 0zm10 8a8 8 0 110-16 8 8 0 010 16zm4-9h-3V6a1 1 0 10-2 0v4c0 .6.4 1 1 1h4a1 1 0 100-2z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
                 <p class="ml-2 text-gray-600">Open 9am - 5pm</p>
               </div>
               <div class="flex items-center xs:ml-6">
                 <svg
-                  class="h-4 text-gray-500 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 16 20"
+                  class="h-5 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 8a8 8 0 018-8 8 8 0 018 8c0 5.4-7 11.5-7.3 11.8a1 1 0 01-1.4 0C7 19.5 0 13.4 0 7.9zm8 9.6c-1.7-1.5-6-6-6-9.7A6 6 0 018 2a6 6 0 016 6c0 3.6-4.3 8-6 9.6zM4.5 7.5a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zm2 0a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
                 <p class="ml-2 text-gray-600">Nashville</p>
@@ -532,16 +515,20 @@
             </div>
           </div>
           <div
-            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            class="absolute flex items-center justify-end w-full h-full px-6 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
             style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-1.png)"
           >
             <svg
-              class="h-6 text-teal-500 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 7 14"
+              class="h-9 text-teal-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                d="M1 14a1 1 0 01-.8-1.6L4.7 7 .4 1.6A1 1 0 012 .4l4.8 6c.3.3.3.9 0 1.2l-5 6a1 1 0 01-.8.4z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
               />
             </svg>
           </div>
@@ -564,28 +551,38 @@
             <div class="mt-2 xs:flex xs:items-center xs:mt-1">
               <div class="flex items-center">
                 <svg
-                  class="h-4 text-gray-500 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
+                  class="h-5 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 10a10 10 0 1120 0 10 10 0 01-20 0zm10 8a8 8 0 110-16 8 8 0 010 16zm4-9h-3V6a1 1 0 10-2 0v4c0 .6.4 1 1 1h4a1 1 0 100-2z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
                 <p class="ml-2 text-gray-600">Open 10am - 7pm</p>
               </div>
               <div class="flex items-center xs:ml-6">
                 <svg
-                  class="h-4 text-gray-500 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 16 20"
+                  class="h-5 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 8a8 8 0 018-8 8 8 0 018 8c0 5.4-7 11.5-7.3 11.8a1 1 0 01-1.4 0C7 19.5 0 13.4 0 7.9zm8 9.6c-1.7-1.5-6-6-6-9.7A6 6 0 018 2a6 6 0 016 6c0 3.6-4.3 8-6 9.6zM4.5 7.5a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zm2 0a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
                 <p class="ml-2 text-gray-600">Nashville</p>
@@ -593,16 +590,20 @@
             </div>
           </div>
           <div
-            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            class="absolute flex items-center justify-end w-full h-full px-6 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
             style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-2.png)"
           >
             <svg
-              class="h-6 text-teal-500 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 7 14"
+              class="h-9 text-teal-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                d="M1 14a1 1 0 01-.8-1.6L4.7 7 .4 1.6A1 1 0 012 .4l4.8 6c.3.3.3.9 0 1.2l-5 6a1 1 0 01-.8.4z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
               />
             </svg>
           </div>
@@ -625,28 +626,38 @@
             <div class="mt-2 xs:flex xs:items-center xs:mt-1">
               <div class="flex items-center">
                 <svg
-                  class="h-4 text-gray-500 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
+                  class="h-5 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 10a10 10 0 1120 0 10 10 0 01-20 0zm10 8a8 8 0 110-16 8 8 0 010 16zm4-9h-3V6a1 1 0 10-2 0v4c0 .6.4 1 1 1h4a1 1 0 100-2z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
                 <p class="ml-2 text-gray-600">Open 9am - 5pm</p>
               </div>
               <div class="flex items-center xs:ml-6">
                 <svg
-                  class="h-4 text-gray-500 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 16 20"
+                  class="h-5 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 8a8 8 0 018-8 8 8 0 018 8c0 5.4-7 11.5-7.3 11.8a1 1 0 01-1.4 0C7 19.5 0 13.4 0 7.9zm8 9.6c-1.7-1.5-6-6-6-9.7A6 6 0 018 2a6 6 0 016 6c0 3.6-4.3 8-6 9.6zM4.5 7.5a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zm2 0a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
                 <p class="ml-2 text-gray-600">Nashville</p>
@@ -654,16 +665,20 @@
             </div>
           </div>
           <div
-            class="absolute flex items-center justify-end w-full h-full px-8 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
+            class="absolute flex items-center justify-end w-full h-full px-6 py-6 bg-center bg-cover rounded-lg sm:static sm:w-auto sm:h-auto sm:rounded-none sm:col-span-5 md:col-span-6 lg:col-span-7 xl:col-span-8"
             style="background-image: linear-gradient(90deg, white, rgba(255,255,255, 0) 40%), url(img/nashville-map-3.png)"
           >
             <svg
-              class="h-6 text-teal-500 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 7 14"
+              class="h-9 text-teal-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                d="M1 14a1 1 0 01-.8-1.6L4.7 7 .4 1.6A1 1 0 012 .4l4.8 6c.3.3.3.9 0 1.2l-5 6a1 1 0 01-.8.4z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
               />
             </svg>
           </div>

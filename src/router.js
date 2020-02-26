@@ -1,9 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import Dictionary from "./views/Dictionary.vue";
-import Support from "./views/Support.vue";
 import EnvironmentalImpact from "./views/EnvironmentalImpact.vue";
+import DixieMotors from "./views/dealerships/DixieMotors.vue";
 
 Vue.use(Router);
 
@@ -17,16 +16,6 @@ export default new Router({
       component: Home
     },
     {
-      path: "/dictionary",
-      name: "dictionary",
-      component: Dictionary
-    },
-    {
-      path: "/support",
-      name: "support",
-      component: Support
-    },
-    {
       path: "/environmental-impact",
       name: "environmental-impact",
       component: EnvironmentalImpact
@@ -34,6 +23,10 @@ export default new Router({
     {
       path: "/carbon-impact",
       redirect: "/environmental-impact"
+    },
+    {
+      path: "/dealerships/dixie-motors",
+      component: DixieMotors
     },
     {
       path: "*",
