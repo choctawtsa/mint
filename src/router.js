@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import EnvironmentalImpact from "./views/EnvironmentalImpact.vue";
 import DixieMotors from "./views/dealerships/DixieMotors.vue";
+import OpryAutos from "./views/dealerships/OpryAutos.vue";
 
 Vue.use(Router);
 
@@ -27,6 +28,10 @@ export default new Router({
     {
       path: "/dealerships/dixie-motors",
       component: DixieMotors
+    },
+    {
+      path: "/dealerships/opry-autos",
+      component: OpryAutos
     },
     {
       path: "*",
