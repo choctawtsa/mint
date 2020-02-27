@@ -4,6 +4,7 @@ import Home from "./views/Home.vue";
 import EnvironmentalImpact from "./views/EnvironmentalImpact.vue";
 import DixieMotors from "./views/dealerships/DixieMotors.vue";
 import OpryAutos from "./views/dealerships/OpryAutos.vue";
+import NashvilleAutoGroup from "./views/dealerships/NashvilleAutoGroup.vue";
 
 Vue.use(Router);
 
@@ -34,16 +35,20 @@ export default new Router({
       component: OpryAutos
     },
     {
+      path: "/dealerships/nashville-auto-group",
+      component: NashvilleAutoGroup
+    },
+    {
       path: "*",
       name: "404",
       component: () => import("./views/404.vue")
     }
   ],
-scrollBehavior (to, from, savedPosition) {
-if (savedPosition) {
-return savedPosition
-} else {
-return { x: 0, y: 0 }
-}
-}
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { x: 0, y: 0 };
+    }
+  }
 });

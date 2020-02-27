@@ -2,7 +2,7 @@
   <div>
     <header
       class="bg-center bg-cover"
-      style="background-image: linear-gradient(90deg, white 0%, white 20%, rgba(255,255,255,0) 100%), url(/img/nashville-map-1.png)"
+      style="background-image: linear-gradient(90deg, white 0%, white 20%, rgba(255,255,255,0) 100%), url(/img/nashville-map-2.png)"
     >
       <div
         class="container mx-auto px-6 pt-4 pb-8 xs:pb-16 sm:pt-8 lg:pb-20 xl:pb-24"
@@ -111,10 +111,10 @@
           <h1
             class="text-6xl font-bold leading-tight text-teal-500 lg:text-7xl"
           >
-            Dixie Motors
+            Opry Autos
           </h1>
           <p class="mt-1 text-teal-900 lg:text-xl">
-            14300 NE 10th St, Nashville, TN 37203
+            11890 Opry Dr, Nashville, TN 37203
           </p>
           <div class="mt-16 xs:mt-12 lg:mt-16">
             <a
@@ -141,48 +141,48 @@
           >
             <div class="flex items-center px-4 py-3">
               <img
-                src="https://images.unsplash.com/photo-1493136289900-28660d718589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.7"
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.7"
                 class="w-12 h-12 rounded-full "
               />
               <div class="ml-3">
                 <h3 class="font-medium leading-snug text-teal-500">
-                  Jordyn Poole
+                  Jeremy Patterson
                 </h3>
                 <p class="text-sm text-gray-700">Manager</p>
               </div>
             </div>
             <div class="flex items-center px-4 py-3 border-t border-gray-300">
               <img
-                src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=2"
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.5"
                 class="w-12 h-12 rounded-full "
               />
               <div class="ml-3">
                 <h3 class="font-medium leading-snug text-teal-500">
-                  Jay Greene
+                  Anna Hughes
                 </h3>
                 <p class="text-sm text-gray-700">Director of Sales</p>
               </div>
             </div>
             <div class="flex items-center px-4 py-3 border-t border-gray-300">
               <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.5"
+                src="https://images.unsplash.com/photo-1505503693641-1926193e8d57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.7"
                 class="w-12 h-12 rounded-full "
               />
               <div class="ml-3">
                 <h3 class="font-medium leading-snug text-teal-500">
-                  Rami O'Gallagher
+                  David Turner
                 </h3>
                 <p class="text-sm text-gray-700">Director of Finance</p>
               </div>
             </div>
             <div class="flex items-center px-4 py-3 border-t border-gray-300">
               <img
-                src="https://images.unsplash.com/photo-1551069613-1904dbdcda11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=2"
+                src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.5"
                 class="w-12 h-12 rounded-full "
               />
               <div class="ml-3">
                 <h3 class="font-medium leading-snug text-teal-500">
-                  Bo Larsen
+                  Kelly Hall
                 </h3>
                 <p class="text-sm text-gray-700">Customer Service</p>
               </div>
@@ -193,23 +193,24 @@
               About this location
             </h2>
             <p class="mt-1 text-gray-700">
-              This Mint dealership is in the heart of Music City and is within
-              walking distance of all the major hotspots downtown; though, you
-              probably aren’t worried about walking distance whenever you’re
-              going to a car dealership.
+              This Mint dealership is among the three in downtown Nashville and
+              is as high-quality as the rest. Consistently ranking among the
+              best in the area in ratings, Opry Autos has been delighting
+              customers since it opened in 2018.
             </p>
             <p class="mt-2 text-gray-700">
-              Dixie Motors is consistently rated extremely well compared to
-              other dealerships in the area, and we wouldn’t have it any other
-              way. As a company, we respect our customers and do everything we
-              can to make them feel content with any decisions we make; we hold
-              our partner dealerships to this same standard.
+              Opry Autos is rated first in efficiency out of every car
+              dealership in the United States. That means that we get you in and
+              out with a car you love as quickly as possible, without skimping
+              on anything. In fact, you'll find most of our reviews say that
+              we're among the nicest people they've met.
             </p>
             <p class="mt-2 text-gray-700">
-              Mint is also an equal-opportunity employer and are proud to say
-              that our dealerships are as well. Dixie Motors’ executive team is
-              represented completely by minorities and is among the most
-              qualified group of people we’ve ever come across.
+              Our customers
+              <span class="italic">always</span>
+              feel well cared for when they shop at Opry Autos. Our dealership
+              even has a caf&eacute; in it with complementary drinks and snacks
+              for everyone as they purchase their vehicle.
             </p>
           </div>
         </div>
@@ -220,7 +221,7 @@
         >
           <div
             class="h-64 bg-center bg-cover md:h-auto md:col-span-3 lg:col-span-5 xl:col-span-6"
-            style="background-image: url(https://images.unsplash.com/photo-1572317319594-85f16b62b93b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=616)"
+            style="background-image: url(https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=616)"
           ></div>
           <div
             class="px-6 py-12 sm:py-16 sm:pl-8 sm:pr-8 xl:pr-16 md:col-span-9 lg:col-span-7 xl:col-span-6"
@@ -252,13 +253,13 @@
               <h2
                 class="text-2xl font-bold leading-tight text-gray-900 sm:text-3xl"
               >
-                The highest-rated car dealership in Nashville
+                The most efficient dealership in the nation
               </h2>
               <p class="mt-4 text-gray-700">
-                Dixie Motors is proud to be the top-rated dealership in the
-                area. We've put in a lot of work to get to this point, and we
-                have no intention of losing this crown anytime soon. So, stop in
-                and see us; we promise you won't regret it!
+                It's not easy being this amazing, but Opry Autos has done it
+                anyways. We're proud to be serving our customers better than any
+                other dealership in the nation, and we won't be stopping anytime
+                soon.
               </p>
             </div>
             <div class="flex-wrap items-center justify-between mt-6 xs:flex">
@@ -293,7 +294,9 @@
                     </mask>
                   </svg>
                 </div>
-                <span class="leading-tight text-gray-600">Yelp Reviews</span>
+                <span class="leading-tight text-gray-600">
+                  Customer Reviews
+                </span>
               </div>
               <div class="flex-auto mt-2 xs:mt-0">
                 <div class="flex items-center">
@@ -327,7 +330,7 @@
                   </svg>
                 </div>
                 <span class="leading-tight text-gray-600">
-                  Google Maps Reviews
+                  USA Today
                 </span>
               </div>
               <div class="flex-auto mt-2 sm:mt-0">
@@ -361,7 +364,7 @@
                     </mask>
                   </svg>
                 </div>
-                <span class="leading-tight text-gray-600">Edmunds Reviews</span>
+                <span class="leading-tight text-gray-600">Mashable</span>
               </div>
             </div>
           </div>
