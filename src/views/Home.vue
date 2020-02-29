@@ -874,26 +874,9 @@
   </div>
 </template>
 
-<style lang="postcss" scoped>
-.mosaic {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-template-rows: repeat(2, minmax(0, 20rem));
-  grid-gap: 1.25rem;
-  gap: 1.25rem;
-}
-</style>
-
 <script>
-// import CarModel from "@/components/CarModel";
-// import ParallaxImageCard from "@/components/ParallaxImageCard";
-
 export default {
   name: "home",
-  components: {
-    // CarModel,
-    // ParallaxImageCard
-  },
   data() {
     return {
       menuOpen: false,
@@ -902,14 +885,14 @@ export default {
           name: "sieberi",
           monthlyPrice: 499,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+            "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Sieberi"
         },
         {
           name: "viridis",
           monthlyPrice: 899,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+            "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Viridis"
         },
         {
@@ -922,13 +905,5 @@ export default {
       ]
     };
   }
-  // methods: {
-  //   flashQuestion() {
-  //     this.isFlashing = true;
-  //     setTimeout(function() {
-  //       this.isFlashing = false;
-  //     }, 1000);
-  //   }
-  // }
 };
 </script>
