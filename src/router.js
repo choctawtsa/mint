@@ -1,10 +1,5 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import EnvironmentalImpact from "./views/EnvironmentalImpact.vue";
-import DixieMotors from "./views/dealerships/DixieMotors.vue";
-import OpryAutos from "./views/dealerships/OpryAutos.vue";
-import NashvilleAutoGroup from "./views/dealerships/NashvilleAutoGroup.vue";
 
 Vue.use(Router);
 
@@ -15,28 +10,32 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
-    },
-    {
-      path: "/environmental-impact",
-      name: "environmental-impact",
-      component: EnvironmentalImpact
-    },
-    {
-      path: "/carbon-impact",
-      redirect: "/environmental-impact"
+      component: () => import("./views/Home.vue")
     },
     {
       path: "/dealerships/dixie-motors",
-      component: DixieMotors
+      component: () => import("./views/dealerships/DixieMotors.vue")
     },
     {
       path: "/dealerships/opry-autos",
-      component: OpryAutos
+      component: () => import("./views/dealerships/OpryAutos.vue")
     },
     {
       path: "/dealerships/nashville-auto-group",
-      component: NashvilleAutoGroup
+      component: () => import("./views/dealerships/NashvilleAutoGroup.vue")
+    },
+    {
+      path: "/vehicles/specs/sieberi",
+      component: () => import("./views/vehicle-specs/Sieberi.vue")
+    },
+
+    {
+      path: "/vehicles/specs/viridis",
+      component: () => import("./views/vehicle-specs/Viridis.vue")
+    },
+    {
+      path: "/vehicles/specs/tauschii",
+      component: () => import("./views/vehicle-specs/Tauschii")
     },
     {
       path: "*",

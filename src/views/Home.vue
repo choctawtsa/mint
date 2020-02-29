@@ -9,7 +9,7 @@
           <router-link to="/">
             <img
               class="w-20 sm:w-24"
-              src="img/all-white.svg"
+              src="/img/all-white.svg"
               alt="Mint Electric logo"
             />
           </router-link>
@@ -137,24 +137,33 @@
       <section
         class="mx-auto px-4 pt-4 lg:pt-0 xl:max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-12 transform lg:-translate-y-1/2"
       >
-        <div
-          class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-xl h-30 transform hover:-translate-y-1 ease-out duration-100"
+        <router-link
+          class="block"
+          :to="'/vehicles/specs/' + car.name"
           v-for="(car, i) in carModels"
           :key="i"
         >
-          <img
-            :src="car.thumbnailUrl"
-            :alt="car.thumbnailAlt"
-            class="flex-shrink-0 object-cover h-30 w-30"
-          />
-          <div class="px-5 py-4">
-            <h4 class="text-xl font-semibold text-gray-900 sm:text-2xl">
-              {{ car.name }}
-            </h4>
-            <p class="text-sm text-gray-700">From ${{ car.monthlyPrice }}/mo</p>
-            <a href="#" class="block mt-2 text-teal-500">Explore</a>
+          <div
+            class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-xl h-30 transform hover:-translate-y-1 ease-out duration-100"
+          >
+            <img
+              :src="car.thumbnailUrl"
+              :alt="car.thumbnailAlt"
+              class="flex-shrink-0 object-cover h-30 w-30"
+            />
+            <div class="px-5 py-4">
+              <h4
+                class="text-xl font-semibold text-gray-900 capitalize sm:text-2xl"
+              >
+                {{ car.name }}
+              </h4>
+              <p class="text-sm text-gray-700">
+                From ${{ car.monthlyPrice }}/mo
+              </p>
+              <p class="block mt-2 text-teal-500">Explore</p>
+            </div>
           </div>
-        </div>
+        </router-link>
       </section>
       <section class="mt-10 px-6 lg:mt-0">
         <div class="container mx-auto">
@@ -890,21 +899,21 @@ export default {
       menuOpen: false,
       carModels: [
         {
-          name: "Sieberi",
+          name: "sieberi",
           monthlyPrice: 499,
           thumbnailUrl:
             "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Sieberi"
         },
         {
-          name: "Viridis",
+          name: "viridis",
           monthlyPrice: 899,
           thumbnailUrl:
             "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
           thumbnailAlt: "Mint Viridis"
         },
         {
-          name: "Tauschii",
+          name: "tauschii",
           monthlyPrice: 699,
           thumbnailUrl:
             "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",

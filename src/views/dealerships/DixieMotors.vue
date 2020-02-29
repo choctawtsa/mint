@@ -166,7 +166,7 @@
             <div class="flex items-center px-4 py-3 border-t border-gray-300">
               <img
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=100&h=100&facepad=1.5"
-                class="w-12 h-12 rounded-full "
+                class="w-12 h-12 rounded-full"
               />
               <div class="ml-3">
                 <h3 class="font-medium leading-snug text-teal-500">
