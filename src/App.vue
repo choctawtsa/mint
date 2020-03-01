@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view />
+    <vue-page-transition name="fade-in-up">
+      <router-view />
+    </vue-page-transition>
     <div
       v-if="breakpointIndicatorOn"
       class="fixed bottom-0 right-0 flex items-center justify-center w-10 h-6 m-8 p-3 font-mono text-xs text-white bg-gray-700 rounded-full xs:w-6 xs:bg-red-500 sm:bg-pink-500 md:bg-orange-500 lg:bg-green-500 xl:bg-blue-500 duration-200 ease-out"

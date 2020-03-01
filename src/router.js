@@ -13,6 +13,10 @@ export default new Router({
       component: () => import("./views/Home.vue")
     },
     {
+      path: "/about",
+      component: () => import("./views/About.vue")
+    },
+    {
       path: "/dealerships/dixie-motors",
       component: () => import("./views/dealerships/DixieMotors.vue")
     },
