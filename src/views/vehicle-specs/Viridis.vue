@@ -1,8 +1,8 @@
 <template>
   <div>
     <header
-      class="bg-center bg-cover"
-      style="background-image: linear-gradient(rgba(45,55,72,0.5), rgba(45,55,72,0.5)), url(https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000)"
+      class="sticky inset-x-0 top-0 bg-center bg-cover xs:static"
+      style="background-image: linear-gradient(rgba(45,55,72,0.5), rgba(45,55,72,0.5)), url(https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000); top: 0"
     >
       <div class="container mx-auto px-4 pt-4 sm:pt-6">
         <nav class="flex items-center justify-between pb-6">
@@ -118,7 +118,9 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto px-6 py-10">
+    <main
+      class="container relative mx-auto -mt-2 px-6 py-10 overflow-hidden bg-gray-200 border-2 border-gray-200 rounded-t-lg xs:mt-0"
+    >
       <div class="hidden pb-4 sm:grid grid-cols-7">
         <div class="col-span-2">
           <p class="font-semibold text-gray-600 uppercase">Category</p>
