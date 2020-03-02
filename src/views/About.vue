@@ -15,8 +15,9 @@
               />
             </a>
             <router-link
-              class="block py-2 pl-6 border-l-2 border-gray-500"
+              class="block py-2 pl-6 border-l-2"
               to="/"
+              style="border-color: rgba(255,255,255,0.25)"
             >
               <img
                 class="-mt-2 sm:w-24 w-18"
@@ -152,6 +153,11 @@
           the TSA High School Competitive Events Guide for the 2019 and 2020
           National TSA Conferences.
         </span>
+        Additionally, all items listed here are licensed under the
+        <a href="https://opensource.org/licenses/MIT" class="text-blue-500">
+          MIT License
+        </a>
+        with the exception of Unsplash.
       </p>
       <p class="pb-4 text-sm text-gray-600">
         State conference judges: TSA removed requirements for the chapter and
@@ -239,7 +245,7 @@
             <p class="mt-2 text-gray-700">
               Our website was built with the frontend JavaScript framework
               <a class="text-blue-500" href="https://vuejs.org">
-                Vue.js
+                Vue.js.
               </a>
               The decision to use Vue was really just to get used to
               technologies that are actually used in the industry. While we did
