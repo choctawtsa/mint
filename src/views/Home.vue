@@ -110,7 +110,7 @@
           class="pt-12 pb-6 xs:pb-16 sm:pt-16 sm:pb-24 xl:pt-24 xl:pb-48 lg:pb-36"
         >
           <h1
-            class="mx-auto text-3xl font-bold leading-tight tracking-tight text-white xs:text-5xl sm:text-6xl xl:max-w-6xl xl:text-7xl text-center"
+            class="mx-auto text-3xl font-bold leading-tight tracking-tight text-white xs:text-5xl sm:text-6xl xl:max-w-6xl font-display xl:text-7xl text-center"
           >
             Building a more sustainable future
             <br class="hidden lg:inline" />
@@ -153,7 +153,7 @@
             />
             <div class="px-5 py-4">
               <h4
-                class="text-xl font-semibold text-gray-900 capitalize sm:text-2xl"
+                class="text-xl font-semibold text-gray-900 capitalize sm:text-2xl font-display"
               >
                 {{ car.name }}
               </h4>
@@ -168,7 +168,7 @@
       <section class="mt-10 px-6 lg:mt-0">
         <div class="container mx-auto">
           <h2
-            class="text-3xl font-bold leading-tight text-gray-900 md:text-5xl text-center"
+            class="text-3xl font-bold leading-tight text-gray-900 md:text-5xl font-display text-center"
           >
             For the
             <span class="text-teal-500">planet,</span>
@@ -186,7 +186,7 @@
           <div class="col-span-3 lg:col-span-1">
             <div class="max-w-lg">
               <h2
-                class="text-2xl font-bold leading-tight text-gray-900 md:text-3xl"
+                class="text-2xl font-bold leading-tight text-gray-900 md:text-3xl font-display"
               >
                 An investment like no other.
               </h2>
@@ -314,7 +314,7 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl group-hover:text-teal-900 duration-200"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl font-display group-hover:text-teal-900 duration-200"
                 >
                   $682
                   <span
@@ -350,7 +350,7 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl group-hover:text-yellow-900 duration-200"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl font-display group-hover:text-yellow-900 duration-200"
                 >
                   $1,179
                   <span
@@ -385,7 +385,7 @@
               </div>
               <div class="mt-2 lg:mt-0 lg:text-center">
                 <h4
-                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl group-hover:text-red-900 duration-200"
+                  class="text-2xl font-semibold leading-tight text-gray-900 lg:text-4xl font-display group-hover:text-red-900 duration-200"
                 >
                   $1,195
                   <span
@@ -410,7 +410,7 @@
         >
           <div>
             <h3
-              class="text-3xl font-bold leading-tight text-teal-900 sm:text-5xl"
+              class="text-3xl font-bold leading-tight text-teal-900 sm:text-5xl font-display"
             >
               Want news on our upcoming products?
             </h3>
@@ -456,10 +456,11 @@
       </section>
       <section id="locations" class="container mx-auto mt-6 px-6 pt-4">
         <div class="items-center justify-between pb-4 sm:flex">
-          <h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
+          <h2
+            class="text-xl font-semibold text-gray-900 sm:text-2xl font-display"
+          >
             Find a dealer near you
           </h2>
-          <!-- @click="flashQuestion()" -->
           <a
             href="#faq"
             class="font-medium text-teal-500 sm:text-lg text-right"
@@ -705,7 +706,9 @@
           >
             Hydroelectric Power
           </p>
-          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+          <h2
+            class="text-4xl font-bold leading-tight text-white lg:text-5xl font-display"
+          >
             Go with the flow
           </h2>
           <p class="mt-4 text-gray-400">
@@ -724,7 +727,9 @@
           >
             Nuclear Power
           </p>
-          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+          <h2
+            class="text-4xl font-bold leading-tight text-white lg:text-5xl font-display"
+          >
             The potential of a particle
           </h2>
           <p class="mt-4 text-gray-400">
@@ -746,7 +751,9 @@
           >
             Solar Power
           </p>
-          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+          <h2
+            class="text-4xl font-bold leading-tight text-white lg:text-5xl font-display"
+          >
             Shine bright
           </h2>
           <p class="mt-4 text-gray-400">
@@ -765,7 +772,9 @@
           >
             Wind Power
           </p>
-          <h2 class="text-4xl font-bold leading-tight text-white lg:text-5xl">
+          <h2
+            class="text-4xl font-bold leading-tight text-white lg:text-5xl font-display"
+          >
             More than a passing breeze
           </h2>
           <p class="mt-4 text-gray-400">
@@ -779,7 +788,7 @@
       <section id="faq" class="bg-teal-500">
         <div class="container mx-auto px-6 pt-10 pb-16">
           <h2
-            class="pb-6 text-4xl font-bold leading-tight text-white md:text-5xl"
+            class="pb-6 text-4xl font-bold leading-tight text-white md:text-5xl font-display"
           >
             Frequently asked questions
           </h2>

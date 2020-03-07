@@ -109,7 +109,7 @@
         </nav>
         <div class="pt-10 md:pt-12 xl:pt-16">
           <h1
-            class="text-6xl font-bold leading-tight text-teal-500 lg:text-7xl"
+            class="text-6xl font-bold leading-tight text-teal-500 lg:text-7xl font-display"
           >
             Dixie Motors
           </h1>
@@ -189,7 +189,9 @@
             </div>
           </div>
           <div class="mt-6 md:mt-0 md:ml-8 xl:ml-0 xl:col-span-9">
-            <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+            <h2
+              class="text-2xl font-bold text-gray-900 md:text-3xl font-display"
+            >
               About this location
             </h2>
             <p class="mt-1 text-gray-700">
@@ -250,7 +252,7 @@
             </div>
             <div class="mt-4">
               <h2
-                class="text-2xl font-bold leading-tight text-gray-900 sm:text-3xl"
+                class="text-2xl font-bold leading-tight text-gray-900 sm:text-3xl font-display"
               >
                 The highest-rated car dealership in Nashville
               </h2>

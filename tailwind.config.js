@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   theme: {
     screens: {
@@ -23,7 +25,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: ["Poppins"]
+        display: ["Poppins", "Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans]
       },
       scale: {
         "99": ".99",
@@ -46,19 +49,6 @@ module.exports = {
       }
     }
   },
-  variants: [
-    "responsive",
-    "group-hover",
-    "focus-within",
-    "first",
-    "last",
-    "odd",
-    "even",
-    "hover",
-    "focus",
-    "active",
-    "visited",
-    "disabled"
-  ],
+  variants: ["responsive", "group-hover", "focus-within", "hover", "focus"],
   plugins: []
 };

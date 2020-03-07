@@ -121,7 +121,7 @@
         </nav>
         <div class="pt-12 pb-12 xs:pb-24 sm:pt-20 sm:pb-30">
           <h1
-            class="text-6xl font-bold leading-none text-white sm:text-7xl text-left"
+            class="text-6xl font-bold leading-none text-white sm:text-7xl text-left font-display"
           >
             About
           </h1>
