@@ -160,11 +160,14 @@
         with the exception of Unsplash.
       </p>
       <p class="pb-4 text-sm text-gray-600">
-        State conference judges: TSA removed requirements for the chapter and
-        CTE pages, so we have not included them to be judged. We also confirmed
-        with the state conference Webmaster event manager, Ms. Jill Sullins, to
-        confirm with her that this would also be the case at state conference.
-        You can find a copy of an email exchange between us and Ms. Sullins
+        State conference judges: TSA updated Webmaster regulations on the
+        <a href="#" class="text-blue-500">Competition Updates</a>
+        page to remove requirements for the CTE and TSA websites. As such, we
+        have left them out of our submission. We did obtain confirmation that
+        our interpretation was correct from the National TSA Webmaster event
+        coordinator, Emily Hummel, and the OKTSA Webmaster event manager, Jill
+        Sullins, to ensure that this wouldn't be an issue at either conference.
+        A copy of email exchanges between us and both officials can be found
         here.
       </p>
       <div
