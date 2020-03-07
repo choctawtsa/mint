@@ -793,62 +793,66 @@
             Frequently asked questions
           </h2>
           <div
-            class="pt-8 border-t-2 border-teal-400 grid md:grid-cols-2 gap-6"
+            class="pt-8 border-t-2 border-teal-400 grid md:grid-cols-2 gap-3 md:gap-6"
           >
             <div>
-              <h3 class="text-xl font-semibold text-teal-100">
-                Can I buy online?
-              </h3>
-              <p class="mt-1 text-teal-200">
-                Unfortunately, we don't take online orders at this time. We're
-                primarily focused on scaling up our production to meet the high
-                demand already presented by our sales at our partner
-                dealerships. Once we have the capacity to meet the demand, we
-                will be offering online orders.
-              </p>
+              <div>
+                <h3 class="text-xl font-semibold text-teal-100">
+                  Can I buy online?
+                </h3>
+                <p class="mt-1 text-teal-200">
+                  Unfortunately, we don't take online orders at this time. We're
+                  primarily focused on scaling up our production to meet the
+                  high demand already presented by our sales at our partner
+                  dealerships. Once we have the capacity to meet the demand, we
+                  will be offering online orders.
+                </p>
+              </div>
+              <div class="mt-3">
+                <h3 class="text-xl font-semibold text-teal-100">
+                  Can I buy a vehicle from outside of the US?
+                </h3>
+                <p class="mt-1 text-teal-200">
+                  Not at this time, but we are working on making this a
+                  possibility. We're still working to meet the demand of US
+                  consumers, but we're working out deals with Canadian and
+                  Australian dealerships in the meantime. Once we're ready for
+                  online orders, most countries will be able to purchase a
+                  vehicle online just like our US consumers.
+                </p>
+              </div>
             </div>
             <div>
-              <h3 class="text-xl font-semibold text-teal-100">
-                Can I buy a vehicle from outside of the US?
-              </h3>
-              <p class="mt-1 text-teal-200">
-                Not at this time, but we are working on making this a
-                possibility. We're still working to meet the demand of US
-                consumers, but we're working out deals with Canadian and
-                Australian dealerships in the meantime. Once we're ready for
-                online orders, most countries will be able to purchase a vehicle
-                online just like our US consumers.
-              </p>
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold text-teal-100">
-                Are your products made in the US?
-              </h3>
-              <p class="mt-1 text-teal-200">
-                We're very proud to be able to answer "yes" to this question. We
-                employ 3,400 people in total across the United States in our
-                production lines and offices.
-              </p>
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold text-teal-100">
-                How do I charge my Mint vehicle?
-              </h3>
-              <p class="mt-1 text-teal-200">
-                Any purchase of a Mint vehicle comes with a charger for you to
-                keep at your house. We have also made our vehicles compatible
-                with Tesla SuperChargers and are building our own network of
-                chargers across the United States for on-the-road charging.
-              </p>
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold text-teal-100">
-                How long is the range for my vehicle?
-              </h3>
-              <p class="mt-1 text-teal-200">
-                Each vehicle has a different range and recharging time. You can
-                find these listed on each product's spec page.
-              </p>
+              <div>
+                <h3 class="text-xl font-semibold text-teal-100">
+                  Are your products made in the US?
+                </h3>
+                <p class="mt-1 text-teal-200">
+                  We're very proud to be able to answer "yes" to this question.
+                  We employ 3,400 people in total across the United States in
+                  our production lines and offices.
+                </p>
+              </div>
+              <div class="mt-3">
+                <h3 class="text-xl font-semibold text-teal-100">
+                  How do I charge my Mint vehicle?
+                </h3>
+                <p class="mt-1 text-teal-200">
+                  Any purchase of a Mint vehicle comes with a charger for you to
+                  keep at your house. We have also made our vehicles compatible
+                  with Tesla SuperChargers and are building our own network of
+                  chargers across the United States for on-the-road charging.
+                </p>
+              </div>
+              <div class="mt-3">
+                <h3 class="text-xl font-semibold text-teal-100">
+                  How long is the range for my vehicle?
+                </h3>
+                <p class="mt-1 text-teal-200">
+                  Each vehicle has a different range and recharging time. You
+                  can find these listed on each product's spec page.
+                </p>
+              </div>
             </div>
           </div>
         </div>
