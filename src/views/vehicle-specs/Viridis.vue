@@ -111,7 +111,7 @@
             Specifications
           </p>
           <h1
-            class="text-6xl font-bold leading-none text-white uppercase md:tracking-wider sm:text-7xl text-left"
+            class="text-6xl font-bold leading-none text-white uppercase md:tracking-wider sm:text-7xl text-left font-display"
           >
             Viridis
           </h1>
