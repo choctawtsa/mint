@@ -165,7 +165,7 @@
         page to remove requirements for the CTE and TSA websites. As such, we
         have left them out of our submission. We did obtain confirmation that
         our interpretation was correct from the National TSA Webmaster event
-        coordinator, Emily Hummel, and the OKTSA Webmaster event manager, Jill
+        coordinator, Emily Hummell, and the OKTSA Webmaster event manager, Jill
         Sullins, to ensure that this wouldn't be an issue at either conference.
         A copy of email exchanges between us and both officials can be found
         here.
