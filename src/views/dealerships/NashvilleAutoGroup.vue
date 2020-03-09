@@ -61,13 +61,6 @@
                 Company
               </router-link>
               <router-link
-                to="/impact"
-                class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
-                exact-active-class="font-medium text-gray-900 bg-gray-200"
-              >
-                Impact
-              </router-link>
-              <router-link
                 to="/about"
                 class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
                 exact-active-class="font-medium text-gray-900 bg-gray-200"
@@ -90,13 +83,6 @@
               exact-active-class="font-semibold text-gray-900"
             >
               Company
-            </router-link>
-            <router-link
-              to="/impact"
-              class="ml-6 hover:text-gray-900 duration-100"
-              exact-active-class="font-semibold text-gray-900"
-            >
-              Impact
             </router-link>
             <router-link
               to="/about"

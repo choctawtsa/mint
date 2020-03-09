@@ -60,13 +60,6 @@
                 Company
               </router-link>
               <router-link
-                to="/impact"
-                class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
-                exact-active-class="font-medium text-gray-900 bg-gray-200"
-              >
-                Impact
-              </router-link>
-              <router-link
                 to="/about"
                 class="px-10 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 text-center"
                 exact-active-class="font-medium text-gray-900 bg-gray-200"
@@ -89,13 +82,6 @@
               exact-active-class="font-semibold text-white"
             >
               Company
-            </router-link>
-            <router-link
-              to="/impact"
-              class="ml-6 duration-100"
-              exact-active-class="font-semibold text-white"
-            >
-              Impact
             </router-link>
             <router-link
               to="/about"
@@ -876,10 +862,13 @@
             </p>
           </div>
           <div class="hidden mt-4 sm:block md:mt-auto">
-            <a href="#" class="text-teal-200">Home</a>
-            <a href="#" class="ml-2 text-teal-200">Company</a>
-            <a href="#" class="ml-2 text-teal-200">Impact</a>
-            <a href="#" class="ml-2 text-teal-200">About</a>
+            <router-link to="/" class="text-teal-200">Home</router-link>
+            <router-link to="/company" class="ml-2 text-teal-200">
+              Company
+            </router-link>
+            <router-link to="/about" class="ml-2 text-teal-200">
+              About
+            </router-link>
           </div>
         </div>
       </div>
