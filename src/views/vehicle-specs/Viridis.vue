@@ -425,6 +425,35 @@
         </ol>
       </section>
     </main>
+    <footer>
+      <div class="container mx-auto px-6">
+        <div
+          class="py-8 border-t-2 border-gray-400 md:flex md:items-center md:justify-between text-center"
+        >
+          <div
+            class="flex flex-col items-center justify-center sm:flex-row md:justify-start"
+          >
+            <img
+              src="https://cdn.choctawtsa.org/mint/all-gray.svg"
+              class="h-6"
+              alt="Mint logo"
+            />
+            <p class="mt-2 text-gray-600 sm:mt-0 sm:ml-6">
+              &copy; 2020 Mint Electric, Inc. All rights reserved.
+            </p>
+          </div>
+          <div class="hidden mt-4 sm:block md:mt-auto">
+            <router-link to="/" class="text-gray-600">Home</router-link>
+            <router-link to="/company" class="ml-2 text-gray-600">
+              Company
+            </router-link>
+            <router-link to="/about" class="ml-2 text-gray-600">
+              About
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
