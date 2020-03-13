@@ -113,16 +113,16 @@
           </h1>
           <div class="pt-20 xs:pt-8">
             <a
-              href="https://www.choctawtsa.org"
+              href="/docs/LEAP-Report.pdf"
               class="block py-2 font-medium text-gray-900 bg-white border-2 border-transparent rounded-lg xs:inline-block xs:px-4 xl:px-6 xl:py-2 xl:text-base hover:bg-gray-200 text-center duration-100"
             >
-              Choctaw TSA
+              LEAP Report
             </a>
             <a
-              href="#"
+              href="/docs/Student-Copyright-Checklist.pdf"
               class="block mt-2 py-2 font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 xl:px-6 xl:py-2 xl:text-base hover:border-gray-500 text-center duration-100"
             >
-              Documentation
+              Copyright Checklist
             </a>
           </div>
         </div>
@@ -147,14 +147,19 @@
       </p>
       <p class="pb-4 text-sm text-gray-600">
         State conference judges: TSA updated Webmaster regulations on the
-        <a href="#" class="text-blue-500">Competition Updates</a>
+        <a
+          href="https://tsaweb.org/competitions-programs/tsa/competition-updates"
+          class="text-blue-500"
+        >
+          Competition Updates
+        </a>
         page to remove requirements for the CTE and TSA websites. As such, we
         have left them out of our submission. We did obtain confirmation that
         our interpretation was correct from the National TSA Webmaster event
         coordinator, Emily Hummell, and the OKTSA Webmaster event manager, Jill
         Sullins, to ensure that this wouldn't be an issue at either conference.
         A copy of email exchanges between us and both officials can be found
-        here.
+        <a href="/docs/Emails.pdf" class="text-blue-500">here.</a>
       </p>
       <div
         class="pt-6 pb-6 border-t-2 border-gray-300 sm:grid sm:grid-cols-7 sm:gap-6 md:gap-0"
