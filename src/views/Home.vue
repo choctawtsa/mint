@@ -462,7 +462,9 @@
             class="z-10 px-6 py-5 sm:z-auto sm:px-8 sm:py-6 sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
           >
             <div class="xs:flex xs:items-baseline">
-              <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
+              <h3
+                class="mr-3 text-xl font-medium leading-tight text-teal-500 font-display"
+              >
                 Dixie Motors
               </h3>
               <p class="text-gray-700">
@@ -537,7 +539,9 @@
             class="z-10 px-6 py-5 sm:z-auto sm:px-8 sm:py-6 sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
           >
             <div class="xs:flex xs:items-baseline">
-              <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
+              <h3
+                class="mr-3 text-xl font-medium leading-tight text-teal-500 font-display"
+              >
                 Opry Autos
               </h3>
               <p class="text-gray-700">
@@ -612,7 +616,9 @@
             class="z-10 px-6 py-5 sm:z-auto sm:px-8 sm:py-6 sm:col-span-7 md:col-span-6 lg:col-span-5 xl:col-span-4"
           >
             <div class="xs:flex xs:items-baseline">
-              <h3 class="mr-3 text-xl font-medium leading-tight text-teal-500">
+              <h3
+                class="mr-3 text-xl font-medium leading-tight text-teal-500 font-display"
+              >
                 Nashville Auto Group
               </h3>
               <p class="text-gray-700">
@@ -887,21 +893,21 @@ export default {
           name: "sieberi",
           monthlyPrice: 499,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+            "https://images.unsplash.com/photo-1532988633349-d3dfb28ee834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&h=360",
           thumbnailAlt: "Mint Sieberi"
         },
         {
           name: "viridis",
           monthlyPrice: 899,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+            "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&h=360",
           thumbnailAlt: "Mint Viridis"
         },
         {
           name: "tauschii",
           monthlyPrice: 699,
           thumbnailUrl:
-            "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=120&h=120",
+            "https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&h=360",
           thumbnailAlt: "Mint Tauschii"
         }
       ]

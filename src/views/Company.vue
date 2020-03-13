@@ -132,6 +132,95 @@
         </div>
       </div>
     </header>
+    <main>
+      <section
+        class="container flex items-center justify-between mx-auto px-6 py-10 grid sm:grid-cols-2 gap-10"
+      >
+        <div class="max-w-sm">
+          <img
+            class="object-cover w-full h-64 sm:h-auto"
+            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000"
+            alt="Men sitting in front of their laptops."
+          />
+        </div>
+        <div class="lg:max-w-lg lg:ml-0 xl:max-w-xl">
+          <h2 class="text-5xl font-bold text-gray-900 lg:text-6xl font-display">
+            Our Mission
+          </h2>
+          <div class="w-20 h-1 my-3 bg-teal-500"></div>
+          <p class="pt-2 text-gray-700 lg:text-lg">
+            We're not in the business of profits; we're in the business of
+            creating a better world. As a society, we're facing countless issues
+            that need to be solved. We're doing our part at Mint to help solve
+            those issues.
+          </p>
+          <p class="pt-2 text-gray-700 lg:text-lg">
+            Our employees are among the best in the industry and are creating
+            solutions to problems nobody else has the courage to tackle.
+            Creating a better world requires innovation, and there's nobody
+            better at that than Mint.
+          </p>
+        </div>
+      </section>
+      <section class="bg-white grid xs:grid-cols-12">
+        <div
+          class="pt-10 pb-16 pl-6 pr-12 xs:col-span-8 sm:col-span-6 lg:col-span-5"
+        >
+          <div class="max-w-sm ml-auto">
+            <h2 class="text-5xl font-bold text-gray-900 font-display">
+              Find us
+            </h2>
+            <div class="w-20 h-1 my-3 bg-teal-500"></div>
+            <div class="pt-8">
+              <div>
+                <p class="tracking-wide text-gray-600 uppercase">
+                  Main HQ
+                </p>
+                <h3 class="text-2xl font-semibold text-gray-800 font-display">
+                  Oklahoma City, OK
+                </h3>
+              </div>
+              <div class="mt-12">
+                <p class="tracking-wide text-gray-600 uppercase">
+                  Engineering Lab
+                </p>
+                <h3 class="text-2xl font-semibold text-gray-800 font-display">
+                  Nashville, TN
+                </h3>
+              </div>
+              <div class="mt-12">
+                <p class="tracking-wide text-gray-600 uppercase">
+                  Quality Assurance
+                </p>
+                <h3 class="text-2xl font-semibold text-gray-800 font-display">
+                  Cupertino, CA
+                </h3>
+              </div>
+              <div class="mt-12">
+                <p class="tracking-wide text-gray-600 uppercase">
+                  Sustainability
+                </p>
+                <h3 class="text-2xl font-semibold text-gray-800 font-display">
+                  Carson City, NV
+                </h3>
+              </div>
+              <div class="mt-12">
+                <p class="tracking-wide text-gray-600 uppercase">
+                  Design
+                </p>
+                <h3 class="text-2xl font-semibold text-gray-800 font-display">
+                  Tulsa, OK
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="h-64 bg-center bg-cover xs:h-auto xs:col-span-4 sm:col-span-6 lg:col-span-7"
+          style="background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop)"
+        ></div>
+      </section>
+    </main>
   </div>
 </template>
 
