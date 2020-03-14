@@ -169,7 +169,7 @@
         <div
           class="mt-6 md:mt-10 lg:px-4 xl:mx-auto xl:px-4 xl:max-w-screen-xl grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-2 sm:gap-10"
         >
-          <div class="col-span-3 lg:col-span-1">
+          <div class="sm:col-span-3 lg:col-span-1">
             <div class="max-w-lg">
               <h2
                 class="text-2xl font-bold leading-tight text-gray-900 md:text-3xl font-display"
@@ -279,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-8 sm:mt-0 col-span-2 lg:col-span-1">
+          <div class="mt-8 sm:mt-0 sm:col-span-2 lg:col-span-1">
             <div
               class="items-center justify-between px-6 pt-5 pb-6 bg-white border border-gray-300 rounded-lg cursor-default select-none lg:flex lg:px-8 lg:pt-7 lg:pb-8 hover:bg-teal-100 hover:border-teal-400 group duration-200 transform hover:scale-101"
             >
