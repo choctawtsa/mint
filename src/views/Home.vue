@@ -2,7 +2,7 @@
   <div>
     <header
       class="bg-center bg-cover"
-      style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1429549462610-8dcf74f61550?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000)"
+      style="background-image: linear-gradient(rgba(40,94,97,0.5), rgba(40,94,97,0.5)), url(https://images.unsplash.com/photo-1464429314063-c1eed7e79974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000)"
     >
       <div class="container mx-auto px-4 pt-4 xs:pb-6 sm:pt-6">
         <nav class="flex items-center justify-between pb-6">
