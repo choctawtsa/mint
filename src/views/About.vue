@@ -237,7 +237,7 @@
               Vue.js
             </p>
             <p class="mt-2 text-gray-700">
-              Our website was built with the frontend JavaScript framework
+              Our website was built with the front-end JavaScript framework
               <a class="text-blue-500" href="https://vuejs.org">
                 Vue.js.
               </a>

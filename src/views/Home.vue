@@ -272,7 +272,7 @@
                   <p class="mt-1 text-sm text-gray-700">
                     With any electric vehicle, you won't have to worry about
                     paying for gas. A Mint vehicle goes the extra mile by
-                    leading the industry in efficieny, so you don't have to
+                    leading the industry in efficiency, so you don't have to
                     charge as often.
                   </p>
                 </div>
@@ -729,7 +729,7 @@
             <span class="italic">safest</span>
             source of energy around, nuclear energy has massive potential. We
             don't envision nuclear fission being around for the long-term, but
-            it's a moderately clean transitionary source of energy as we move on
+            it's a moderately clean transitional source of energy as we move on
             to better things like nuclear and as we build up our other renewable
             sources.
           </p>
