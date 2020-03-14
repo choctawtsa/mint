@@ -29,8 +29,12 @@ export default new Router({
       component: () => import("./views/dealerships/OpryAutos.vue")
     },
     {
+      path: "/dealerships/jones-electric",
+      component: () => import("./views/dealerships/JonesElectric.vue")
+    },
+    {
       path: "/dealerships/nashville-auto-group",
-      component: () => import("./views/dealerships/NashvilleAutoGroup.vue")
+      redirect: "/dealerships/jones-electric"
     },
     {
       path: "/vehicles/specs/sieberi",

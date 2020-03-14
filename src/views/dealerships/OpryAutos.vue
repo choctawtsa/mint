@@ -110,11 +110,16 @@
               Get Directions
             </a>
             <a
-              href="#"
+              href="mailto:hello@choctawtsa.org"
               class="block mt-4 px-4 py-3 font-medium text-gray-800 bg-white rounded-lg shadow-xl xs:inline-block xs:mt-0 xs:ml-5 xs:py-2 hover:bg-gray-100 text-center xs:text-left duration-200"
             >
               Contact
             </a>
+            <span
+              class="block mt-4 -mb-4 text-xs text-gray-500 xs:text-left text-center"
+            >
+              Map data &copy;2020 Google
+            </span>
           </div>
         </div>
       </div>

@@ -143,7 +143,7 @@
         <a href="https://opensource.org/licenses/MIT" class="text-blue-500">
           MIT License
         </a>
-        with the exception of Unsplash.
+        unless otherwise noted.
       </p>
       <p class="pb-4 text-sm text-gray-600">
         State conference judges: TSA updated Webmaster regulations on the
@@ -311,7 +311,7 @@
               makes it a hugely useful tool for our team.
             </p>
           </div>
-          <div class="mt-6 grid lg:grid-cols-2 gap-6 lg:gap-8">
+          <div class="mt-6 grid lg:grid-cols-3 gap-6 lg:gap-8">
             <div>
               <p class="font-semibold text-gray-600 uppercase">
                 Heroicons
@@ -329,6 +329,21 @@
                 Eva Icons is another useful icon set that we used; it contained
                 an icon that we needed but Heroicons didn't have, so we had to
                 use two icon sets.
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-600 uppercase">
+                Google Maps
+              </p>
+              <p class="mt-2 text-gray-700 xs:mt-3 sm:mt-0">
+                Graphics for maps were provided courtesy of Google Maps, and
+                follow Google's attribution guidelines as outlined
+                <a
+                  href="https://www.google.com/permissions/geoguidelines/attr-guide/"
+                  class="text-blue-500"
+                >
+                  here.
+                </a>
               </p>
             </div>
           </div>

@@ -390,7 +390,7 @@
           </div>
         </div>
       </section>
-      <section class="container mx-auto mt-10 px-6">
+      <section class="container mx-auto mt-16 px-6 lg:mt-20">
         <div
           class="items-center justify-between px-6 py-10 bg-teal-100 rounded-lg shadow-inner sm:px-10 sm:py-12 md:px-12 md:py-16 lg:flex lg:px-18 lg:py-18"
         >
@@ -440,7 +440,10 @@
           </div>
         </div>
       </section>
-      <section id="locations" class="container mx-auto mt-6 px-6 pt-4">
+      <section
+        id="locations"
+        class="mx-auto mt-12 px-6 pt-4 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl"
+      >
         <div class="items-center justify-between pb-4 sm:flex">
           <h2
             class="text-xl font-semibold text-gray-900 sm:text-2xl font-display"
@@ -563,7 +566,7 @@
                     d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                <p class="ml-2 text-gray-600">Open 10am - 7pm</p>
+                <p class="ml-2 text-gray-600">Open 8am - 4pm</p>
               </div>
               <div class="flex items-center xs:ml-6">
                 <svg
@@ -609,7 +612,7 @@
           </div>
         </router-link>
         <router-link
-          to="/dealerships/nashville-auto-group"
+          to="/dealerships/jones-electric"
           class="mt-3 overflow-hidden bg-white border border-gray-300 rounded-lg hover:border-teal-400 hover:scale-101 transform duration-200 grid sm:grid-cols-12 group"
         >
           <div
@@ -619,7 +622,7 @@
               <h3
                 class="mr-3 text-xl font-medium leading-tight text-teal-500 font-display"
               >
-                Nashville Auto Group
+                Jones Electric
               </h3>
               <p class="text-gray-700">
                 14 miles away
@@ -685,9 +688,12 @@
             </svg>
           </div>
         </router-link>
+        <span class="block mt-2 text-xs text-gray-500 text-right">
+          Map data &copy;2020 Google
+        </span>
       </section>
       <section
-        class="container mx-auto mt-10 px-6 pb-10 grid gap-5 grid-cols-1 md:grid-cols-2"
+        class="container mx-auto mt-16 px-6 pb-16 lg:mt-20 lg:pb-20 grid gap-5 lg:gap-8 grid-cols-1 md:grid-cols-2"
       >
         <div
           class="w-full h-full px-6 py-10 bg-center bg-cover rounded-lg lg:px-10 lg:py-16 col-span-1"

@@ -97,7 +97,7 @@
           <h1
             class="text-6xl font-bold leading-tight text-teal-500 lg:text-7xl font-display"
           >
-            Nashville Auto Group
+            Jones Electric
           </h1>
           <p class="mt-1 text-teal-900 lg:text-xl">
             35333 Tennessee Ln, Nashville, TN 37203
@@ -110,11 +110,16 @@
               Get Directions
             </a>
             <a
-              href="#"
+              href="mailto:hello@choctawtsa.org"
               class="block mt-4 px-4 py-3 font-medium text-gray-800 bg-white rounded-lg shadow-xl xs:inline-block xs:mt-0 xs:ml-5 xs:py-2 hover:bg-gray-100 text-center xs:text-left duration-200"
             >
               Contact
             </a>
+            <span
+              class="block mt-4 -mb-4 text-xs text-gray-500 xs:text-left text-center"
+            >
+              Map data &copy;2020 Google
+            </span>
           </div>
         </div>
       </div>
@@ -183,21 +188,21 @@
             <p class="mt-1 text-gray-700">
               This Mint dealership is among the three in downtown Nashville and
               is as high-quality as the rest. Consistently ranking among the
-              best in the area in ratings, the Nashville Auto Group has been
-              delighting customers since it opened in 2017.
+              best in the area in ratings, Jones Electric has been delighting
+              customers since it opened in 2017.
             </p>
             <p class="mt-2 text-gray-700">
-              The Nashville Auto Group is more than just a dealership; it's a
-              hub of innovation. This location runs completely on renewable
-              energy, and upgrades are being constantly made to make the
-              location as sustainable as possible. This innovation leads the
-              location to represent Mint the best out of any other dealership.
+              Jones Electric is more than just a dealership; it's a hub of
+              innovation. This location runs completely on renewable energy, and
+              upgrades are being constantly made to make the location as
+              sustainable as possible. This innovation leads the location to
+              represent Mint the best out of any other dealership.
             </p>
             <p class="mt-2 text-gray-700">
               Mint has always been a home for innovation and for moving this
               planet towards a more sustainable future. The efforts of our
-              dealership partners are only a step in that, but the Nashville
-              Auto Group perfectly represents the values of that step.
+              dealership partners are only a step in that, but Jones Electric
+              perfectly represents the values of that step.
             </p>
           </div>
         </div>
@@ -245,8 +250,8 @@
               <p class="mt-4 text-gray-700">
                 Mint values innovation and the effort to improve this planet
                 above all else. We're constantly looking for ways to improve on
-                our mission, and the Nashville Auto Group's constant innovation
-                in sustainability perfectly represents what we're looking for.
+                our mission, and Jones Electric's constant innovation in
+                sustainability perfectly represents what we're looking for.
               </p>
             </div>
           </div>
