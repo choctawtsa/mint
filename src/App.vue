@@ -4,7 +4,8 @@
       <router-view />
     </vue-page-transition>
     <div
-      class="fixed bottom-0 left-0 flex items-center justify-center h-6 m-8 px-2 py-3 font-mono text-xs text-white bg-gray-700 rounded-full opacity-50 pointer-events-none"
+      :class="breakpointIndicatorOn ? 'left-0' : 'right-0'"
+      class="fixed bottom-0 flex items-center justify-center h-6 m-8 px-2 py-3 font-mono text-xs text-white bg-gray-700 rounded-full opacity-50 pointer-events-none"
     >
       <div class="block">
         Team
@@ -42,7 +43,7 @@ export default {
   components: {},
   data() {
     return {
-      breakpointIndicatorOn: true
+      breakpointIndicatorOn: false
     };
   }
 };
