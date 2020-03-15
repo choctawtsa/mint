@@ -101,12 +101,12 @@
             We're working to move humanity toward a brighter future.
           </h1>
           <div class="mx-auto xs:w-auto xs:pt-0 xl:mt-12 mt-18 text-center">
-            <a
-              href="/#faq"
+            <router-link
+              :to="{ name: 'home', hash: '#faq' }"
               class="block py-2 font-medium text-gray-900 bg-white border-2 border-transparent rounded-lg xs:inline-block xs:px-4 xl:px-6 xl:py-2 xl:text-base hover:text-teal-900 hover:bg-teal-100 duration-100"
             >
               Have a question?
-            </a>
+            </router-link>
             <router-link
               to="/about"
               class="block mt-2 py-2 font-medium text-white border-2 border-transparent rounded-lg xs:inline-block xs:mt-0 xs:ml-2 xs:px-4 sm:ml-4 xl:px-6 xl:py-2 xl:text-base hover:border-gray-500 duration-100"

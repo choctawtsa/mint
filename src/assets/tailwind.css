@@ -1,5 +1,34 @@
 /* purgecss start ignore */
 @tailwind base;
+html {
+  scroll-behavior: smooth;
+}
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+/* purgecss start ignore */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.fade-in-up-leave-to {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.fade-in-up-enter {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+}
+.fade-in-up-enter-to {
+  opacity: 0;
+  animation-duration: 0.7s;
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+/* purgecss end ignore */

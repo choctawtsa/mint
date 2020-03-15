@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <vue-page-transition name="fade-in-up">
+    <transition name="fade-in-up">
       <router-view />
-    </vue-page-transition>
+    </transition>
     <div
       :class="breakpointIndicatorOn ? 'left-0' : 'right-0'"
       class="fixed bottom-0 flex items-center justify-center h-6 m-8 px-2 py-3 font-mono text-xs text-white bg-gray-700 rounded-full opacity-50 pointer-events-none"
