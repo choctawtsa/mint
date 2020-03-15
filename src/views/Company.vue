@@ -115,7 +115,7 @@
             </router-link>
           </div>
         </div>
-        <div>
+        <router-link :to="{ path: '/company', hash: '#mission' }">
           <svg
             class="h-10 mx-auto text-white lg:h-14"
             fill="none"
@@ -129,11 +129,12 @@
               d="M19 9l-7 7-7-7"
             />
           </svg>
-        </div>
+        </router-link>
       </div>
     </header>
     <main>
       <section
+        id="mission"
         class="container flex items-center justify-between mx-auto px-6 py-10 grid sm:grid-cols-2 gap-10"
       >
         <div class="max-w-sm">
