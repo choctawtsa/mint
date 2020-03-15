@@ -213,7 +213,7 @@
         >
           <div
             class="h-64 bg-center bg-cover md:h-auto md:col-span-3 lg:col-span-5 xl:col-span-6"
-            style="background-image: url(https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=616)"
+            style="background-image: url(https://images.unsplash.com/photo-1493953522814-88c4f52f6509?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=616)"
           ></div>
           <div
             class="px-6 py-12 sm:py-16 sm:pl-8 sm:pr-8 xl:pr-16 md:col-span-9 lg:col-span-7 xl:col-span-6"

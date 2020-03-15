@@ -217,7 +217,7 @@
         </div>
         <div
           class="h-64 bg-center bg-cover xs:h-auto xs:col-span-4 sm:col-span-6 lg:col-span-7"
-          style="background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop)"
+          style="background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500)"
         ></div>
       </section>
     </main>
