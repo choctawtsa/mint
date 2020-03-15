@@ -73,22 +73,22 @@
           <div class="hidden font-medium text-gray-400 sm:block">
             <router-link
               to="/"
-              class="duration-100"
+              class="hover:text-gray-200 duration-100"
               exact-active-class="font-semibold text-white"
             >
               Home
             </router-link>
             <router-link
               to="/company"
-              class="ml-6 duration-100"
-              exact-active-class="font-semibold text-white"
+              class="ml-6 hover:text-gray-200 duration-100"
+              active-class="font-semibold text-white"
             >
               Company
             </router-link>
             <router-link
               to="/about"
-              class="ml-6 duration-100"
-              exact-active-class="font-semibold text-white"
+              class="ml-6 hover:text-gray-200 duration-100"
+              active-class="font-semibold text-white"
             >
               About
             </router-link>
@@ -240,11 +240,22 @@
             </p>
           </div>
           <div class="hidden mt-4 sm:block md:mt-auto">
-            <router-link to="/" class="text-teal-200">Home</router-link>
-            <router-link to="/company" class="ml-2 text-teal-200">
+            <router-link
+              to="/"
+              class="text-teal-200 hover:text-teal-100 duration-100"
+            >
+              Home
+            </router-link>
+            <router-link
+              to="/company"
+              class="ml-2 text-teal-200 hover:text-teal-100 duration-100"
+            >
               Company
             </router-link>
-            <router-link to="/about" class="ml-2 text-teal-200">
+            <router-link
+              to="/about"
+              class="ml-2 text-teal-200 hover:text-teal-100 duration-100"
+            >
               About
             </router-link>
           </div>

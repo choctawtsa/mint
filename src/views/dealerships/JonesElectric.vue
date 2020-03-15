@@ -69,24 +69,24 @@
               </router-link>
             </div>
           </div>
-          <div class="hidden font-medium text-gray-700 sm:block">
+          <div class="hidden font-medium text-gray-600 sm:block">
             <router-link
               to="/"
-              class="hover:text-gray-900 duration-100"
+              class="hover:text-gray-700 duration-100"
               exact-active-class="font-semibold text-gray-900"
             >
               Home
             </router-link>
             <router-link
               to="/company"
-              class="ml-6 hover:text-gray-900 duration-100"
+              class="ml-6 hover:text-gray-700 duration-100"
               exact-active-class="font-semibold text-gray-900"
             >
               Company
             </router-link>
             <router-link
               to="/about"
-              class="ml-6 hover:text-gray-900 duration-100"
+              class="ml-6 hover:text-gray-700 duration-100"
               exact-active-class="font-semibold text-gray-900"
             >
               About
@@ -276,11 +276,22 @@
             </p>
           </div>
           <div class="hidden mt-4 sm:block md:mt-auto">
-            <router-link to="/" class="text-gray-600">Home</router-link>
-            <router-link to="/company" class="ml-2 text-gray-600">
+            <router-link
+              to="/"
+              class="text-gray-600 hover:text-gray-700 duration-100"
+            >
+              Home
+            </router-link>
+            <router-link
+              to="/company"
+              class="ml-2 text-gray-600 hover:text-gray-700 duration-100"
+            >
               Company
             </router-link>
-            <router-link to="/about" class="ml-2 text-gray-600">
+            <router-link
+              to="/about"
+              class="ml-2 text-gray-600 hover:text-gray-700 duration-100"
+            >
               About
             </router-link>
           </div>
