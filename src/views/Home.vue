@@ -432,10 +432,8 @@
             <p
               class="block mt-2 px-1 text-sm text-teal-500 md:mt-0 md:pl-4 md:pr-0 lg:mt-2 lg:px-2"
             >
-              We care about the protection of your data. Read our
-              <a class="font-medium text-teal-600 underline" href="#">
-                Privacy Policy.
-              </a>
+              Don't worry; your data remains private and encrypted from the
+              moment you submit it.
             </p>
           </div>
         </div>
